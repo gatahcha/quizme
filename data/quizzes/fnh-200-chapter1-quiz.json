@@ -1,0 +1,475 @@
+{
+  "id": "quiz-1730419200000-fnh200ch1",
+  "title": "FNH 200: Food Science and the Canadian Food System Quiz",
+  "description": "Test your understanding of Food Science and the Canadian Food System based on fnh-200-chapter1.md",
+  "subject": "Food Science",
+  "questions": [
+    {
+      "id": "q-001",
+      "type": "multiple-choice",
+      "question": "What is the primary distinction between food science and food technology?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Food science focuses on agriculture while food technology focuses on nutrition",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Food science generates knowledge through research while food technology applies this knowledge practically",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Food science studies only chemistry while food technology studies only engineering",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "There is no distinction; they are the same field",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Food science applies basic scientific principles to acquire new knowledge about food, while food technology applies this knowledge to develop appropriate technologies ensuring quality and safety in commercial food production.",
+      "metadata": {
+        "tags": ["food-science", "food-technology", "definitions"]
+      }
+    },
+    {
+      "id": "q-002",
+      "type": "true-false",
+      "question": "Nicolas Appert developed the canning process before scientists understood the microbiology behind why it worked.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": true,
+      "explanation": "Appert won Napoleon's prize in 1806 for his heat processing method, which occurred decades before Louis Pasteur explained the scientific principles of how heat kills microorganisms.",
+      "metadata": {
+        "tags": ["food-history", "Nicholas-Appert", "canning"]
+      }
+    },
+    {
+      "id": "q-003",
+      "type": "multiple-choice",
+      "question": "What key observation led Clarence Birdseye to develop commercial quick-freezing technology?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Fish frozen slowly in warehouses tasted better than fresh fish",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Fish exposed to Arctic air remained tender and fresh-tasting when cooked months later",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Canned fish maintained better quality than frozen fish",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Adding salt to fish before freezing improved texture",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "During expeditions to Labrador, Birdseye noticed that fish frozen rapidly in Arctic conditions maintained better quality than conventionally frozen fish because rapid freezing creates smaller ice crystals that cause less cellular damage.",
+      "metadata": {
+        "tags": ["Clarence-Birdseye", "freezing", "food-history"]
+      }
+    },
+    {
+      "id": "q-004",
+      "type": "multiple-choice",
+      "question": "In controlled atmosphere (CA) storage for McIntosh apples, what is the oxygen level after six weeks?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "21% (normal atmospheric level)",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "10%",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-3",
+          "text": "2.5%",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-4",
+          "text": "0% (complete absence of oxygen)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "CA storage maintains oxygen at 2.5% (compared to 21% in normal air) to slow respiration. After six weeks, carbon dioxide increases to 4.5% while oxygen remains at 2.5%.",
+      "metadata": {
+        "tags": ["controlled-atmosphere", "CA-storage", "apple-storage"]
+      }
+    },
+    {
+      "id": "q-005",
+      "type": "true-false",
+      "question": "Controlled atmosphere storage can extend McIntosh apple storage from 5 months to 8 months compared to regular cold storage.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": true,
+      "explanation": "Under optimal CA conditions, McIntosh apples store successfully for up to 8 months compared to only 5 months in regular cold storage at the same temperature and humidity.",
+      "metadata": {
+        "tags": ["CA-storage", "preservation", "apple-storage"]
+      }
+    },
+    {
+      "id": "q-006",
+      "type": "multiple-choice",
+      "question": "What is the primary role of nitrogen in controlled atmosphere storage?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "It actively slows fruit respiration",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "It serves as an inert filler gas",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "It prevents microbial growth",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "It enhances fruit color development",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Nitrogen serves as an inert filler gas in CA storage, making up the remaining atmosphere (93-95%) after oxygen and carbon dioxide levels are adjusted. It does not actively participate in preservation.",
+      "metadata": {
+        "tags": ["CA-storage", "nitrogen", "preservation-technology"]
+      }
+    },
+    {
+      "id": "q-007",
+      "type": "matching",
+      "question": "Match each food science discipline with its primary focus in food applications:",
+      "difficulty": "medium",
+      "points": 20,
+      "leftItems": [
+        {
+          "id": "left-1",
+          "text": "Chemistry"
+        },
+        {
+          "id": "left-2",
+          "text": "Physics"
+        },
+        {
+          "id": "left-3",
+          "text": "Microbiology"
+        },
+        {
+          "id": "left-4",
+          "text": "Engineering"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "right-1",
+          "text": "Understanding food composition and reactions",
+          "correctMatchId": "left-1"
+        },
+        {
+          "id": "right-2",
+          "text": "Studying properties like texture and heat transfer",
+          "correctMatchId": "left-2"
+        },
+        {
+          "id": "right-3",
+          "text": "Examining microorganisms' effects on food",
+          "correctMatchId": "left-3"
+        },
+        {
+          "id": "right-4",
+          "text": "Designing processing systems",
+          "correctMatchId": "left-4"
+        }
+      ],
+      "explanation": "Food science is multidisciplinary, applying chemistry to understand composition, physics for properties, microbiology for microorganism effects, and engineering to design processing systems.",
+      "metadata": {
+        "tags": ["food-science", "multidisciplinary", "fundamentals"]
+      }
+    },
+    {
+      "id": "q-008",
+      "type": "multiple-choice",
+      "question": "According to 2021 Statistics Canada data, what percentage of average Canadian household food expenditure is spent on store purchases versus restaurants?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "50% stores, 50% restaurants",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "60% stores, 40% restaurants",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-3",
+          "text": "78% stores, 21% restaurants",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-4",
+          "text": "90% stores, 10% restaurants",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In 2021, Canadian households spent $8,065 (78%) on food from stores and $2,189 (21%) on restaurant food, with the pandemic affecting restaurant spending patterns.",
+      "metadata": {
+        "tags": ["food-expenditure", "consumer-spending", "statistics"]
+      }
+    },
+    {
+      "id": "q-009",
+      "type": "true-false",
+      "question": "Per capita fluid milk consumption in Canada increased from 2019 to 2023.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": false,
+      "explanation": "Fluid milk consumption shows consistent decline from 44.7 kg per capita in 2019 to 40.0 kg in 2023, continuing a long-term trend toward reduced milk drinking.",
+      "metadata": {
+        "tags": ["consumption-trends", "dairy", "per-capita-consumption"]
+      }
+    },
+    {
+      "id": "q-010",
+      "type": "multiple-choice",
+      "question": "Which process transforms apple cider into apple vinegar?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Fermentation with yeast",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Fermentation with acetic acid bacteria",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Pasteurization at high temperature",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Dehydration to concentrate acids",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Apple juice ferments with yeast to produce hard cider containing alcohol. Cider can further ferment with acetic acid bacteria to create apple vinegar.",
+      "metadata": {
+        "tags": ["fermentation", "apple-processing", "vinegar"]
+      }
+    },
+    {
+      "id": "q-011",
+      "type": "multiple-choice",
+      "question": "What is Canada's global ranking as an exporter of value-added processed packaged food and seafood products?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "3rd largest",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "5th largest",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-3",
+          "text": "10th largest",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-4",
+          "text": "20th largest",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Canada ranks as the 10th largest exporter of value-added processed packaged food and seafood products globally, with exports totaling CAD $48.0 billion in 2022.",
+      "metadata": {
+        "tags": ["Canadian-food-system", "exports", "economic-impact"]
+      }
+    },
+    {
+      "id": "q-012",
+      "type": "matching",
+      "question": "Match each consumer trend with its key characteristic:",
+      "difficulty": "hard",
+      "points": 20,
+      "leftItems": [
+        {
+          "id": "left-1",
+          "text": "Aging Canadians"
+        },
+        {
+          "id": "left-2",
+          "text": "Veggie Movement"
+        },
+        {
+          "id": "left-3",
+          "text": "Small Indulgences"
+        },
+        {
+          "id": "left-4",
+          "text": "Educated Consumers"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "right-1",
+          "text": "Demand for bone health, heart health, and easy-open packaging",
+          "correctMatchId": "left-1"
+        },
+        {
+          "id": "right-2",
+          "text": "Plant-based eating driven by environmental and ethical concerns",
+          "correctMatchId": "left-2"
+        },
+        {
+          "id": "right-3",
+          "text": "Premium quality products in moderate portions",
+          "correctMatchId": "left-3"
+        },
+        {
+          "id": "right-4",
+          "text": "Research products before purchasing and demand transparency",
+          "correctMatchId": "left-4"
+        }
+      ],
+      "explanation": "Understanding consumer trends helps the food industry develop appropriate products. Each trend reflects demographic, social, or cultural shifts affecting food choices.",
+      "metadata": {
+        "tags": ["consumer-trends", "market-trends", "food-industry"]
+      }
+    },
+    {
+      "id": "q-013",
+      "type": "multiple-choice",
+      "question": "Why does rapid freezing preserve food quality better than slow freezing?",
+      "difficulty": "hard",
+      "points": 20,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Rapid freezing kills more bacteria than slow freezing",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Rapid freezing creates smaller ice crystals that cause less cellular damage",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Rapid freezing removes more water from the food",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Rapid freezing prevents all chemical reactions in food",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Rapid freezing at extremely low temperatures creates smaller ice crystals that cause less damage to cellular structures, maintaining better texture and quality when the food is thawed and cooked.",
+      "metadata": {
+        "tags": ["freezing", "preservation", "food-science-concepts"]
+      }
+    },
+    {
+      "id": "q-014",
+      "type": "true-false",
+      "question": "Food science, agriculture, and nutrition are essentially the same field with different names.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": false,
+      "explanation": "These are distinct fields: agriculture focuses on primary production (growing crops and raising animals), food science transforms agricultural products into safe foods, and nutrition examines food effects on human health.",
+      "metadata": {
+        "tags": ["food-science", "agriculture", "nutrition", "definitions"]
+      }
+    },
+    {
+      "id": "q-015",
+      "type": "multiple-choice",
+      "question": "Which evaluation component has the highest weight in the FNH 200 course grade?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Midterm exam (30%)",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Final exam (40%)",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Assignments (16%)",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Quizzes (10%)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The final exam carries the highest weight at 40% of the course grade, covering lessons 1-13 with 90% emphasis on post-midterm material.",
+      "metadata": {
+        "tags": ["course-administration", "evaluation", "grading"]
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-11-01T00:00:00Z",
+    "sourceFile": "fnh-200-chapter1.md",
+    "totalQuestions": 15,
+    "estimatedTime": 30,
+    "difficultyDistribution": {
+      "easy": 7,
+      "medium": 5,
+      "hard": 2,
+      "expert": 1
+    },
+    "tags": ["food-science", "Canadian-food-system", "FNH-200", "controlled-atmosphere-storage", "consumer-trends", "food-history"],
+    "version": "1.0.0"
+  },
+  "settings": {
+    "shuffleQuestions": true,
+    "shuffleAnswers": true,
+    "timeLimit": 45,
+    "passingScore": 70
+  }
+}

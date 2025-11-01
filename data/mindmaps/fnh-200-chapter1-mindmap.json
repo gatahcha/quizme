@@ -1,0 +1,1987 @@
+{
+  "id": "mm-1730419200000-fnh200fo",
+  "title": "FNH 200: Food Science and the Canadian Food System",
+  "description": "FNH 200 (Exploring Our Food) is an introductory course examining food science principles and the Canadian food system. The course, taught at UBC from September to December 2025, provides students with foundational knowledge about how food is produced, processed, distributed, and consumed in Canada.",
+  "rootNode": {
+    "id": "node-root",
+    "title": "FNH 200: Food Science and the Canadian Food System",
+    "content": {
+      "summary": "Introductory course examining food science principles and the Canadian food system, covering production, processing, distribution, and consumption.",
+      "detailed": "FNH 200 (Exploring Our Food) is an introductory course examining food science principles and the Canadian food system. The course, taught at UBC from September to December 2025, provides students with foundational knowledge about how food is produced, processed, distributed, and consumed in Canada. Students learn to describe key concepts of food science, articulate personal values regarding food choices, and critically evaluate food-related issues. The course covers the multidisciplinary nature of food science, including chemistry, physics, microbiology, and engineering applications. Through examination of the Canadian food industry's structure, processing methods (using apples as a case study), and consumption trends, students gain comprehensive understanding of the journey from farm to consumer. The curriculum emphasizes practical applications of food science discoveries, from historical innovations like canning and freezing to modern trends in food consumption."
+    },
+    "children": [
+      {
+        "id": "node-1-001",
+        "title": "Course Structure and Administration",
+        "content": {
+          "summary": "FNH 200 is delivered through Canvas with specific evaluation components and learning objectives focused on food science concepts and critical thinking about food systems.",
+          "detailed": "The course operates on a blended learning model utilizing Canvas as the primary platform for content delivery, assignments, and assessments. Students access lessons, assigned readings, quizzes, and announcements through their Campus Wide Login (CWL) at canvas.ubc.ca. The instructor, Azita Madadi Noei, holds office hours by appointment via Zoom and communicates with students through Canvas internal email. Course resources include lecture notes, assignments, discussions, videos, and quizzes, with lessons released progressively as they are reviewed and updated. Students are expected to review course content prior to attending class sessions and check Canvas daily for announcements through the Discussion tool."
+        },
+        "children": [
+          {
+            "id": "node-2-001",
+            "title": "Course Platform and Access",
+            "content": {
+              "summary": "Canvas learning management system serves as the primary platform for all course materials and communication.",
+              "detailed": "All course materials delivered through Canvas at https://canvas.ubc.ca/ accessed with CWL credentials. Students must check Canvas daily for updates and announcements. Communication primarily through Canvas internal email system. Office hours available by appointment via Zoom. Lessons released progressively after review and updates.",
+              "keyPoints": [
+                "All course materials delivered through Canvas learning management system",
+                "Students must check Canvas daily for updates and announcements",
+                "Communication primarily through Canvas internal email system",
+                "Office hours available by appointment via Zoom",
+                "Lessons released progressively after review and updates"
+              ]
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["canvas", "learning-management-system", "platform"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          },
+          {
+            "id": "node-2-002",
+            "title": "Evaluation Components",
+            "content": {
+              "summary": "Assessment includes diverse evaluation methods totaling 100%, with opportunities for bonus marks through active participation and contribution.",
+              "detailed": "The evaluation structure balances different assessment types to measure various learning outcomes. Assignments account for 16% of the grade through two major assignments that require application of food science concepts. Quizzes comprise 10% through 4-5 online assessments testing knowledge retention and comprehension. The midterm exam (30%) and final exam (40%) assess comprehensive understanding, with the midterm covering lessons 1-4 and the final covering lessons 1-13 with 90% emphasis on post-midterm material. Participation (4%) is evaluated through in-class polls and questions, requiring above 90% attendance with less than 3 missing hours. Each missing hour after the threshold results in a 0.5 mark deduction. Students can earn back participation marks through extra discussion board contributions, with two additional meaningful posts equaling 0.5 marks. Bonus marks (maximum 1.5%) reward exceptional engagement including answering specific lecture questions (not polls), providing substantive responses to peer questions on discussion boards (acknowledged by instructor notes), offering constructive suggestions for course improvement, participating in discussion forums beyond requirements, and completing quality control surveys (0.5%)."
+            },
+            "children": [
+              {
+                "id": "node-3-001",
+                "title": "Assignments (16%)",
+                "content": {
+                  "summary": "Two major assignments requiring application of food science concepts.",
+                  "detailed": "Two assignments worth 16% total assess application of concepts to real-world food science scenarios."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-002",
+                "title": "Quizzes (10%)",
+                "content": {
+                  "summary": "Four to five online quizzes testing knowledge comprehension.",
+                  "detailed": "Five quizzes (4 regular + 1 additional) worth 10% test knowledge comprehension and retention of course material."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-003",
+                "title": "Midterm Exam (30%)",
+                "content": {
+                  "summary": "50-minute exam covering lessons 1-4 with one-sided memory aid allowed.",
+                  "detailed": "Midterm exam (30%) covers first four lessons with 50-minute duration. Allows one-sided Letter or A4 memory aid with font size 6 or above.",
+                  "examples": [
+                    "Midterm exam allows one-sided Letter or A4 memory aid with font size 6 or above"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-004",
+                "title": "Final Exam (40%)",
+                "content": {
+                  "summary": "2-hour comprehensive exam emphasizing post-midterm content with two-sided memory aid.",
+                  "detailed": "Final exam (40%) covers lessons 1-13 with 90% emphasis on post-midterm material and 2-hour duration. Permits two-sided memory aid with same formatting requirements as midterm.",
+                  "examples": [
+                    "Final exam permits two-sided memory aid with font size 6 or above"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-005",
+                "title": "Participation (4%)",
+                "content": {
+                  "summary": "In-class polls and attendance tracking with 90% threshold requirement.",
+                  "detailed": "Participation tracked through in-class polls with 90% attendance threshold. Each missing hour after threshold results in 0.5 mark deduction. Students can earn back marks through extra discussion board contributions (two posts = 0.5 marks).",
+                  "examples": [
+                    "In-class polls require students to respond to questions during lecture sessions to earn participation marks"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-006",
+                "title": "Bonus Marks (up to 1.5%)",
+                "content": {
+                  "summary": "Extra credit for exceptional engagement and contributions.",
+                  "detailed": "Bonus opportunities available for active contribution including answering lecture questions (not polls), substantive discussion board responses acknowledged by instructor, course improvement suggestions, participation beyond requirements, and quality control surveys (0.5%).",
+                  "keyPoints": [
+                    "Answering specific lecture questions (not polls)",
+                    "Substantive responses to peer questions on discussion boards",
+                    "Constructive suggestions for course improvement",
+                    "Participating in discussion forums beyond requirements",
+                    "Completing quality control surveys (0.5%)"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["evaluation", "assessment", "grading"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-003",
+            "title": "Course Objectives and Learning Outcomes",
+            "content": {
+              "summary": "Students will master key food science concepts, articulate personal values about food choices, and develop critical thinking skills for evaluating food-related issues.",
+              "detailed": "The course establishes three primary learning objectives that guide all activities and assessments. First, students learn to describe key concepts of food science, including the multidisciplinary nature of the field encompassing chemistry, physics, microbiology, and engineering. Second, students develop the ability to articulate personal values that rationalize their food purchase and consumption choices. Third, students learn to critically evaluate and form independent opinions on food-related issues. These objectives interconnect throughout the course, with each lesson building knowledge that supports all three outcomes."
+            },
+            "children": [
+              {
+                "id": "node-3-007",
+                "title": "Objective 1: Describe Key Food Science Concepts",
+                "content": {
+                  "summary": "Understand fundamental principles of food science from multidisciplinary perspectives.",
+                  "detailed": "Students learn to describe key concepts of food science, including the multidisciplinary nature of the field encompassing chemistry, physics, microbiology, and engineering. This objective ensures students understand fundamental principles underlying food production, processing, and preservation.",
+                  "examples": [
+                    "Students describe how rapid freezing technology (Birdseye method) preserves food quality better than slow freezing"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-008",
+                "title": "Objective 2: Articulate Personal Food Values",
+                "content": {
+                  "summary": "Develop self-awareness about personal beliefs influencing food choices.",
+                  "detailed": "Students develop the ability to articulate personal values that rationalize their food purchase and consumption choices. This encourages self-reflection on how individual beliefs, cultural background, health considerations, environmental concerns, and economic factors influence food decisions.",
+                  "examples": [
+                    "Students articulate whether they prioritize organic certification, local production, or price when purchasing produce"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-009",
+                "title": "Objective 3: Critical Evaluation Skills",
+                "content": {
+                  "summary": "Develop analytical skills for evaluating food-related claims and forming independent opinions.",
+                  "detailed": "Students learn to critically evaluate and form independent opinions on food-related issues. This involves analyzing claims about food products, understanding scientific evidence versus marketing messages, evaluating processing methods, and considering multiple perspectives on controversial topics.",
+                  "examples": [
+                    "Students critically evaluate marketing claims about 'natural' or 'chemical-free' foods using scientific knowledge",
+                    "Students form opinions on food processing technologies after examining both benefits and concerns"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["learning-objectives", "learning-outcomes", "critical-thinking"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["course-administration", "course-structure", "UBC"],
+          "createdAt": "2025-11-01T00:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-002",
+        "title": "Food Science Fundamentals",
+        "content": {
+          "summary": "Food science applies basic scientific and engineering principles to study the physical, chemical, and biochemical properties of food, while food technology applies this knowledge to ensure food quality and safety.",
+          "detailed": "Food science represents the application of fundamental scientific disciplines to understand food at molecular and systems levels. It encompasses chemistry to understand food composition and reactions, physics to study properties like texture and heat transfer, microbiology to examine microorganisms' effects, and engineering to design processing systems. This multidisciplinary approach enables researchers to acquire new knowledge about food behavior during processing, storage, and consumption. Food technology differs from food science as the practical application domain. While food science generates knowledge, food technology utilizes this information to develop appropriate technologies ensuring quality and safety in commercial food production. The field differs importantly from both agriculture and nutrition. Agriculture focuses on primary production—growing crops and raising animals. Nutrition examines food effects on people who consume them. Food science occupies the middle ground, transforming agricultural products into safe, nutritious, appealing foods ready for consumption."
+        },
+        "children": [
+          {
+            "id": "node-2-004",
+            "title": "Multidisciplinary Components",
+            "content": {
+              "summary": "Food science integrates chemistry, physics, microbiology, engineering, and analysis.",
+              "detailed": "Food science encompasses multiple scientific disciplines working together to understand and improve food systems."
+            },
+            "children": [
+              {
+                "id": "node-3-010",
+                "title": "Chemistry",
+                "content": {
+                  "summary": "Understanding food composition and chemical reactions.",
+                  "detailed": "Chemistry helps understand food composition, molecular structures, and chemical reactions occurring during processing and storage.",
+                  "examples": [
+                    "Food chemists analyze how proteins in egg whites create foam structure in meringues"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-011",
+                "title": "Physics",
+                "content": {
+                  "summary": "Studying physical properties like texture and heat transfer.",
+                  "detailed": "Physics examines properties such as texture, viscosity, heat transfer, and physical transformations in food systems."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-012",
+                "title": "Microbiology",
+                "content": {
+                  "summary": "Examining microorganisms' effects on food safety and quality.",
+                  "detailed": "Microbiology studies beneficial and harmful microorganisms affecting food safety, fermentation, and spoilage.",
+                  "examples": [
+                    "Food microbiologists identify beneficial bacteria for yogurt fermentation"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-013",
+                "title": "Engineering",
+                "content": {
+                  "summary": "Designing processing systems and equipment.",
+                  "detailed": "Engineering principles design and optimize food processing equipment, production systems, and manufacturing facilities.",
+                  "examples": [
+                    "Food engineers design pasteurization systems that kill pathogens while preserving nutrients"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["multidisciplinary", "chemistry", "physics", "microbiology", "engineering"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-005",
+            "title": "Food Science vs Food Technology",
+            "content": {
+              "summary": "Food science generates knowledge through research; food technology applies knowledge to practical production.",
+              "detailed": "Food science represents knowledge generation through research and experimentation, while food technology is the practical application domain utilizing scientific discoveries in processing plants, quality control, and product development."
+            },
+            "children": [
+              {
+                "id": "node-3-014",
+                "title": "Food Science Role",
+                "content": {
+                  "summary": "Generates new knowledge through research and experimentation.",
+                  "detailed": "Food science focuses on acquiring new knowledge about food behavior, composition, and properties through systematic research."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-015",
+                "title": "Food Technology Role",
+                "content": {
+                  "summary": "Applies scientific knowledge to ensure quality and safety in production.",
+                  "detailed": "Food technology implements scientific discoveries in commercial production, developing appropriate technologies for quality control and food safety.",
+                  "examples": [
+                    "Food technologists optimize freezing rates to minimize ice crystal size and maintain texture"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["food-science", "food-technology", "definition"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-006",
+            "title": "Relationship to Other Fields",
+            "content": {
+              "summary": "Food science differs from agriculture (production) and nutrition (consumption effects), occupying the middle ground of transformation.",
+              "detailed": "Food science is distinct from agriculture, which focuses on primary production of crops and animals, and nutrition, which examines food effects on human health. Food science transforms agricultural products into safe, nutritious, appealing foods."
+            },
+            "children": [
+              {
+                "id": "node-3-016",
+                "title": "Agriculture",
+                "content": {
+                  "summary": "Primary production of crops and animals using inputs like sunlight, water, and soil.",
+                  "detailed": "Agriculture focuses on growing crops and raising animals using inputs like sunlight, water, fuel, fertilizer, and soil."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-017",
+                "title": "Nutrition",
+                "content": {
+                  "summary": "Studies food effects on human health and disease.",
+                  "detailed": "Nutrition examines how food consumption affects people, studying how nutrients influence human health and disease."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["agriculture", "nutrition", "definition"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          },
+          {
+            "id": "node-2-007",
+            "title": "Historical Discoveries and Pioneers",
+            "content": {
+              "summary": "Key historical figures made breakthrough discoveries in food preservation that established the foundation for modern food science and technology.",
+              "detailed": "Historical pioneers established food science as a distinct discipline. Nicolas Appert developed canning through heat processing in bottles in the early 1800s, winning Napoleon's prize for food preservation innovation. Clarence Birdseye revolutionized freezing in the 1920s after observing that fish frozen rapidly in Arctic conditions maintained better quality than conventionally frozen products. These discoveries exemplify how observation, experimentation, and application of scientific principles advance the field. Modern innovations continue this tradition with technologies like UHT processing, freeze-drying, instant foods, and modified atmosphere packaging."
+            },
+            "children": [
+              {
+                "id": "node-3-018",
+                "title": "Nicolas Appert - Canning",
+                "content": {
+                  "summary": "French confectioner who invented canning through heat processing in early 1800s.",
+                  "detailed": "Nicolas Appert developed a technique involving placing food in bottles, corking them, and heating the sealed bottles in a water bath in response to Napoleon's 12,000 franc prize offer in 1795. This thermal sterilization method successfully preserved foods for extended periods. Appert won the prize and published his methods in 1806, establishing the foundation for the canning industry decades before the scientific principles were understood.",
+                  "examples": [
+                    "Cans of roast veal from 1824 and soup from 1856 demonstrate canning's longevity"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["Nicolas-Appert", "canning", "preservation"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-019",
+                "title": "Clarence Birdseye - Quick Freezing",
+                "content": {
+                  "summary": "Discovered rapid freezing preserves quality through observation in Arctic conditions.",
+                  "detailed": "Clarence Birdseye noticed during expeditions to Labrador that fish frozen rapidly in Arctic air remained tender and fresh-tasting when cooked months later. He recognized that rapid freezing at extremely low temperatures created smaller ice crystals causing less cellular damage. Birdseye developed commercial quick-freezing equipment and founded the frozen food industry.",
+                  "examples": [
+                    "Birdseye quick-frozen fish maintains texture comparable to fresh fish after months of storage"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["Clarence-Birdseye", "freezing", "innovation"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-020",
+                "title": "Modern Innovations",
+                "content": {
+                  "summary": "Continued application of food science principles to preservation and convenience.",
+                  "detailed": "Modern innovations include UHT processing with aseptic packaging for shelf-stable milk, HTST pasteurization, freeze-drying for space food, instant noodles and puddings, dehydrated camping foods, vacuum packaging, and spreadable margarines."
+                },
+                "children": [
+                  {
+                    "id": "node-4-001",
+                    "title": "UHT Processing and Aseptic Packaging",
+                    "content": {
+                      "summary": "Ultra-high temperature treatment enabling shelf-stable products.",
+                      "detailed": "UHT processing combined with aseptic packaging (Tetra Pak) enables shelf-stable milk and juices without refrigeration.",
+                      "examples": [
+                        "UHT milk in aseptic Tetra Pak cartons remains safe without refrigeration for months"
+                      ]
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-002",
+                    "title": "Freeze-Drying",
+                    "content": {
+                      "summary": "Preserves food while maintaining structure and nutrients.",
+                      "detailed": "Freeze-drying technology initially developed for space food programs preserves foods while maintaining structure and nutrients.",
+                      "examples": [
+                        "Freeze-dried ice cream developed for astronauts eating in weightless conditions"
+                      ]
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-003",
+                    "title": "Instant and Convenience Foods",
+                    "content": {
+                      "summary": "Instant noodles, puddings, and dehydrated foods for convenience.",
+                      "detailed": "Instant noodles, instant pudding mixes, and dehydrated foods for camping and emergency supplies provide convenience while maintaining safety and quality."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  }
+                ],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["innovation", "modern-technology"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["food-history", "pioneers", "preservation"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["food-science", "multidisciplinary", "definition"],
+          "createdAt": "2025-11-01T00:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-003",
+        "title": "Canadian Food System",
+        "content": {
+          "summary": "Canada's food system encompasses primary agricultural production, post-farm processing and distribution, and diverse market channels serving consumers, with significant economic impact and evolving consumption patterns.",
+          "detailed": "The Canadian food system operates as an integrated network connecting primary production through processing to consumers. The system's economic magnitude is substantial, with Canadians consuming approximately 1,095 meals per year (3 per day), total annual food manufacturing product shipments reaching approximately $123 billion, and Canada ranking as the 10th largest exporter of value-added processed packaged food and seafood products globally, with exports totaling CAD $48.0 billion in 2022. Primary agricultural production occurs across Canada's provinces with regional specialization. Post-farm gate processing applies food science principles to transform raw materials into consumer products. Distribution channels move products through retail, food service, and direct market pathways."
+        },
+        "children": [
+          {
+            "id": "node-2-008",
+            "title": "Economic Impact",
+            "content": {
+              "summary": "Canadian food manufacturing generates $123 billion annually; Canada ranks 10th globally in food exports.",
+              "detailed": "Total annual food manufacturing product shipments reach approximately $123 billion. Canada ranks as the 10th largest exporter of value-added processed packaged food and seafood products globally, with exports totaling CAD $48.0 billion in 2022. Canadians consume approximately 1,095 meals per year."
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["economic-impact", "exports", "manufacturing"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          },
+          {
+            "id": "node-2-009",
+            "title": "Primary Agricultural Production",
+            "content": {
+              "summary": "Regional specialization based on climate and geography produces diverse agricultural products.",
+              "detailed": "Primary agricultural production occurs across Canada's provinces, with regional specialization based on climate and geography. Animal production (beef, poultry, pork) and dairy milk production are distributed nationwide. Cereal and grain production dominates prairie provinces. Tree fruits, small fruits, and berries concentrate in regions with appropriate growing conditions. Vegetable production occurs in various regions depending on crop requirements. Seafood comes from Atlantic and Pacific coastal waters plus freshwater sources."
+            },
+            "children": [
+              {
+                "id": "node-3-021",
+                "title": "Animal Production",
+                "content": {
+                  "summary": "Beef, poultry, pork, and dairy distributed nationwide.",
+                  "detailed": "Animal production (beef, poultry, pork) and dairy milk production are distributed nationwide, with particular concentration in provinces with suitable grazing land and feed production."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-022",
+                "title": "Cereal and Grain Production",
+                "content": {
+                  "summary": "Concentrated in prairie provinces.",
+                  "detailed": "Cereal and grain production dominates prairie provinces due to suitable climate and soil conditions.",
+                  "examples": [
+                    "Prairie provinces produce wheat and canola for domestic use and export"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-023",
+                "title": "Fruits and Berries",
+                "content": {
+                  "summary": "Tree fruits and berries in BC and eastern provinces.",
+                  "detailed": "Tree fruits, small fruits, and berries (cranberries, raspberries, blueberries) concentrate in regions with appropriate growing conditions, particularly British Columbia and eastern provinces.",
+                  "examples": [
+                    "British Columbia's Okanagan Valley grows tree fruits including apples, cherries, and peaches"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-024",
+                "title": "Vegetable Production",
+                "content": {
+                  "summary": "Various regions based on crop requirements.",
+                  "detailed": "Vegetable production occurs in various regions depending on crop requirements and climate suitability.",
+                  "examples": [
+                    "Ontario produces vegetables for fresh consumption and processing into canned goods"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-025",
+                "title": "Seafood",
+                "content": {
+                  "summary": "Atlantic and Pacific coastal waters plus freshwater sources.",
+                  "detailed": "Seafood comes from both Atlantic and Pacific coastal waters plus freshwater sources.",
+                  "examples": [
+                    "Atlantic provinces harvest lobster, crab, and fish for domestic and international markets"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["primary-production", "agriculture", "regional-specialization"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-010",
+            "title": "Post-Farm Processing",
+            "content": {
+              "summary": "Transforms raw materials into consumer products through various operations requiring inputs and generating co-products.",
+              "detailed": "Post-farm gate processing applies food science principles to transform raw materials into consumer products. Operations include grading, washing, cutting, cooking, freezing, canning, drying, fermenting, and packaging. Processing plants require human resources, energy, water, equipment, and packaging materials as inputs. The waste stream often generates valuable co-products like animal feed, pectin extraction, or compost rather than disposal."
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["processing", "food-manufacturing"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-011",
+            "title": "Distribution Channels",
+            "content": {
+              "summary": "Products move through retail, food service, and direct market pathways.",
+              "detailed": "Distribution channels move products from processing facilities to consumers through various pathways including fresh markets, retail grocery stores, food service operations (restaurants, cafeterias, institutions), and direct farm markets."
+            },
+            "children": [
+              {
+                "id": "node-3-026",
+                "title": "Fresh Markets",
+                "content": {
+                  "summary": "Graded produce directly from farms or packing plants.",
+                  "detailed": "Fresh markets receive graded produce directly from farms or packing plants for direct consumer sale."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-027",
+                "title": "Retail Grocery Stores",
+                "content": {
+                  "summary": "Stock both fresh and processed products from multiple suppliers.",
+                  "detailed": "Retail grocery stores stock both fresh and processed products from multiple suppliers, serving as primary consumer access point."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-028",
+                "title": "Food Service Operations",
+                "content": {
+                  "summary": "Restaurants, cafeterias, and institutions with specialized distribution.",
+                  "detailed": "Food service operations including restaurants, cafeterias, and institutions purchase through specialized distribution systems."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-029",
+                "title": "Direct Farm Markets",
+                "content": {
+                  "summary": "Producers connect with consumers, bypassing intermediaries.",
+                  "detailed": "Direct farm markets connect producers with consumers, bypassing some intermediary steps in traditional distribution."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["distribution", "retail", "food-service"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          },
+          {
+            "id": "node-2-012",
+            "title": "Food Expenditure and Consumption Patterns",
+            "content": {
+              "summary": "Canadian household food expenditures total over $10,000 annually, with spending divided between store purchases and restaurant meals, showing distinct trends across different food categories.",
+              "detailed": "Average Canadian household food expenditures reached $10,305 in 2021 according to Statistics Canada data, representing a significant portion of household budgets. This total divides into food purchased from stores ($8,065 or 78%) and food purchased from restaurants ($2,189 or 21%). The 2021 data shows pandemic impact on restaurant spending, which decreased from pre-pandemic levels while store purchases increased. Store purchase categories reveal consumer priorities: meat ($1,517), non-alcoholic beverages and other products ($1,923), dairy and eggs ($1,161), fruits ($1,030), vegetables ($967), bakery ($698), and cereals ($464)."
+            },
+            "children": [
+              {
+                "id": "node-3-030",
+                "title": "Store Purchases (78%)",
+                "content": {
+                  "summary": "$8,065 annually per household across multiple categories.",
+                  "detailed": "Store purchases account for 78% of total food expenditure ($8,065 annually per household), distributed across meat, dairy, produce, bakery, and other categories."
+                },
+                "children": [
+                  {
+                    "id": "node-4-004",
+                    "title": "Meat - $1,517",
+                    "content": {
+                      "summary": "Largest store purchase category.",
+                      "detailed": "Meat represents the largest category at $1,517 annually per household.",
+                      "examples": [
+                        "Typical household spends $1,517 on meat products including beef, poultry, and pork"
+                      ]
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-005",
+                    "title": "Beverages and Other - $1,923",
+                    "content": {
+                      "summary": "Non-alcoholic beverages and other food products.",
+                      "detailed": "Non-alcoholic beverages and other food products total $1,923 annually."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  },
+                  {
+                    "id": "node-4-006",
+                    "title": "Dairy and Eggs - $1,161",
+                    "content": {
+                      "summary": "Dairy products and eggs.",
+                      "detailed": "Dairy products and eggs at $1,161 annually per household."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-007",
+                    "title": "Fruits - $1,030",
+                    "content": {
+                      "summary": "Fruits and preparations.",
+                      "detailed": "Fruits and preparations at $1,030 annually per household."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-008",
+                    "title": "Vegetables - $967",
+                    "content": {
+                      "summary": "Vegetables and preparations.",
+                      "detailed": "Vegetables and preparations at $967 annually per household."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-009",
+                    "title": "Bakery - $698",
+                    "content": {
+                      "summary": "Bakery products.",
+                      "detailed": "Bakery products at $698 annually per household, increased from $574 in 2015."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  },
+                  {
+                    "id": "node-4-010",
+                    "title": "Cereals - $464",
+                    "content": {
+                      "summary": "Cereal grains and products.",
+                      "detailed": "Cereal grains and products at $464 annually per household."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  },
+                  {
+                    "id": "node-4-011",
+                    "title": "Fish and Seafood - $305",
+                    "content": {
+                      "summary": "Relatively modest seafood spending.",
+                      "detailed": "Fish and seafood spending remains relatively modest at $305 per household annually."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  }
+                ],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["store-purchases", "grocery"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-031",
+                "title": "Restaurant Spending (21%)",
+                "content": {
+                  "summary": "$2,189 annually, decreased during COVID-19 pandemic.",
+                  "detailed": "Restaurant spending accounts for 21% of total food expenditure ($2,189 in 2021), decreased from $2,458 in 2019 due to pandemic restrictions and work-from-home changes.",
+                  "examples": [
+                    "Restaurant meal spending dropped from $2,458 (2019) to $1,963 (2021) during pandemic"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["restaurant", "food-service", "COVID-19"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-032",
+                "title": "Regional Variations",
+                "content": {
+                  "summary": "British Columbia households spend more than national average.",
+                  "detailed": "British Columbia households show higher average food expenditures ($11,341 in 2021) compared to national average ($10,305), reflecting higher costs of living and different consumption patterns.",
+                  "examples": [
+                    "British Columbia households spend about $1,071 annually on fruits compared to $1,030 nationally"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["regional-variation", "British-Columbia"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["food-expenditure", "consumer-spending", "statistics-canada"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-013",
+            "title": "Per Capita Food Availability",
+            "content": {
+              "summary": "Data on per capita food availability tracks consumption patterns across major food categories, showing relatively stable consumption with some declining trends in certain categories like fluid milk and red meat.",
+              "detailed": "Per capita food availability data, corrected for loss, provides insights into actual consumption patterns by accounting for waste and non-consumed portions. The 2019-2023 period shows generally stable consumption with some notable shifts. Cereal consumption remains stable around 47-48 kg per capita annually. Beverage consumption varies: tea and coffee average 151-172 liters, alcoholic beverages decline from 166 to 156 liters, and soft drinks decrease from 47 to 39 liters. Dairy shows mixed patterns with fluid milk declining from 44.7 to 40.0 kg while cheese remains stable. Poultry stays stable at 38-39 kg while red meat declines from 37.4 to 34.8 kg. Fruit and vegetable availability both show declining trends."
+            },
+            "children": [
+              {
+                "id": "node-3-033",
+                "title": "Staple Foods",
+                "content": {
+                  "summary": "Cereals, sugar, and nuts show stable consumption.",
+                  "detailed": "Cereal consumption stable around 47-48 kg per capita annually. Sugar, honey, and syrup near 18-19 kg. Peanuts and tree nuts approximately 5 kg per person."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              },
+              {
+                "id": "node-3-034",
+                "title": "Beverage Consumption",
+                "content": {
+                  "summary": "Declining trends in soft drinks and alcoholic beverages; stable tea and coffee.",
+                  "detailed": "Tea and coffee average 151-172 liters per capita. Alcoholic beverages decline from 166 liters (2019) to 156 liters (2023). Soft drinks show clearer decline from 47 liters (2019) to 39 liters (2023).",
+                  "examples": [
+                    "Coffee and tea consumption exceeds 150 liters per capita annually"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["beverages", "consumption-trends"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-035",
+                "title": "Dairy Consumption",
+                "content": {
+                  "summary": "Fluid milk declining; cheese and other dairy stable.",
+                  "detailed": "Fluid milk shows consistent decline from 44.7 kg (2019) to 40.0 kg (2023). Cheese consumption stable at 11-12 kg per capita. Other dairy products steady around 18-19 kg per person.",
+                  "examples": [
+                    "Cheese consumption averages 11.7 kg per person per year"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["dairy", "milk", "cheese"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-036",
+                "title": "Protein Sources",
+                "content": {
+                  "summary": "Poultry stable; red meat declining; seafood remains low.",
+                  "detailed": "Poultry consumption stable at approximately 38-39 kg per capita (boneless weight). Egg consumption stable at 9.3-9.4 kg. Red meat (beef, pork, lamb) declines from 37.4 kg (2019) to 34.8 kg (2023). Seafood remains low at 4.7-5.4 kg per capita.",
+                  "examples": [
+                    "Average Canadian consumes approximately 38.9 kg of poultry annually (boneless weight)",
+                    "Seafood consumption remains modest at less than 5 kg per capita despite health recommendations"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["protein", "meat", "poultry", "seafood"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-037",
+                "title": "Produce Consumption",
+                "content": {
+                  "summary": "Declining trends in both fruits and vegetables.",
+                  "detailed": "Total fruit and preparations decreased from 63.0 kg (2019) to 57.6 kg (2023). Total vegetable and preparations declined from 48.0 kg (2019) to 43.7 kg (2023). Potato consumption fluctuates between 55-62 kg per capita."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["fruits", "vegetables", "produce"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-038",
+                "title": "Fats and Oils",
+                "content": {
+                  "summary": "Slight decline in butter and oil consumption.",
+                  "detailed": "Butter and oil consumption shows slight decline from 17.8 kg (2019) to 16.5 kg (2023), possibly reflecting health concerns or substitution."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["per-capita-consumption", "food-availability", "consumption-trends"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["Canadian-food-system", "food-industry", "agriculture"],
+          "createdAt": "2025-11-01T00:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-004",
+        "title": "Apple Processing Case Study",
+        "content": {
+          "summary": "Apple processing demonstrates how a single raw material transforms into diverse products through controlled atmosphere storage, thermal processing, fermentation, dehydration, and specialized preparations.",
+          "detailed": "Apples serve as an ideal case study for understanding food processing because they transform into numerous products while demonstrating key preservation and processing principles. The journey begins with primary production on farms requiring inputs of sunlight, water, fuel, fertilizer, soil, and pest control. After harvest, apples move to packing plants for grading based on size, color, firmness, and absence of defects. Controlled atmosphere storage extends availability beyond harvest season. Processing creates diverse products including juice, cider, vinegar, sauce, pie fillings, and dried products. Waste streams generate valuable co-products like pectin and animal feed."
+        },
+        "children": [
+          {
+            "id": "node-2-014",
+            "title": "Grading and Quality Separation",
+            "content": {
+              "summary": "Apples separated by quality for fresh market or processing use.",
+              "detailed": "The grading process separates apples into different quality tiers. Highest quality apples go to fresh markets. Medium quality apples with minor cosmetic defects go to processing. Lower quality apples with more significant defects become ingredients for processed products or animal feed. Damaged or diseased apples go to disposal or composting."
+            },
+            "children": [
+              {
+                "id": "node-3-039",
+                "title": "Highest Quality - Fresh Market",
+                "content": {
+                  "summary": "Excellent appearance, proper size, no defects for direct sale.",
+                  "detailed": "Highest quality apples with excellent appearance, proper size, and no defects go to fresh markets for direct sale to consumers."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-040",
+                "title": "Medium Quality - Processing",
+                "content": {
+                  "summary": "Minor cosmetic defects but good eating quality.",
+                  "detailed": "Medium quality apples may have minor cosmetic defects but retain good eating quality, often used for processing."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-041",
+                "title": "Lower Quality - Ingredients/Feed",
+                "content": {
+                  "summary": "Significant defects but wholesome for processing or animal feed.",
+                  "detailed": "Lower quality apples with more significant defects but still wholesome become ingredients for processed products or animal feed."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              },
+              {
+                "id": "node-3-042",
+                "title": "Damaged/Diseased - Disposal",
+                "content": {
+                  "summary": "Unsuitable apples for disposal or composting.",
+                  "detailed": "Truly damaged or diseased apples go to disposal or composting."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["grading", "quality-control"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          },
+          {
+            "id": "node-2-015",
+            "title": "Controlled Atmosphere Storage Technology",
+            "content": {
+              "summary": "CA storage manipulates temperature, humidity, and atmospheric gases to slow apple respiration and ripening, extending storage life from 5 to 8 months for McIntosh variety.",
+              "detailed": "Controlled atmosphere storage represents one of the most important post-harvest technologies for extending fruit availability. The technology creates environmental conditions that slow but do not stop normal physiological processes in living fruit tissue. Living apples continue respiring after harvest, consuming oxygen and producing carbon dioxide, water, and heat. CA storage slows this process by limiting oxygen availability and increasing carbon dioxide. For McIntosh apples, optimal storage includes temperature around 3°C, relative humidity at 87%, and atmosphere composition of 2.5% oxygen, 2.5-4.5% carbon dioxide, and nitrogen as filler. Under optimal CA conditions, McIntosh apples store successfully for up to 8 months compared to only 5 months in regular cold storage."
+            },
+            "children": [
+              {
+                "id": "node-3-043",
+                "title": "Storage Parameters for McIntosh",
+                "content": {
+                  "summary": "Specific temperature, humidity, and gas composition requirements.",
+                  "detailed": "Optimal McIntosh storage conditions: temperature around 3°C, relative humidity at 87%, initial atmosphere of 2.5% O₂, 2.5% CO₂, 95% N₂. After six weeks, CO₂ increases to 4.5% while O₂ remains at 2.5% and N₂ decreases to 93%."
+                },
+                "children": [
+                  {
+                    "id": "node-4-012",
+                    "title": "Temperature: 3°C",
+                    "content": {
+                      "summary": "Slows biochemical reactions without freezing.",
+                      "detailed": "Temperature around 3°C slows biochemical reactions without freezing which would damage tissue."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-013",
+                    "title": "Relative Humidity: 87%",
+                    "content": {
+                      "summary": "Prevents water loss while avoiding condensation.",
+                      "detailed": "Relative humidity at 87% prevents water loss and shriveling while avoiding condensation that promotes decay."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-014",
+                    "title": "Oxygen: 2.5%",
+                    "content": {
+                      "summary": "Reduced from 21% in normal air to slow respiration.",
+                      "detailed": "Oxygen reduced from 21% in normal air to 2.5% to slow aerobic respiration and ethylene production."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "high"
+                    }
+                  },
+                  {
+                    "id": "node-4-015",
+                    "title": "Carbon Dioxide: 2.5-4.5%",
+                    "content": {
+                      "summary": "Elevated from 0.03% to inhibit ripening enzymes.",
+                      "detailed": "Carbon dioxide increased from 0.03% in normal air to 2.5% initially, then 4.5% after six weeks to inhibit ripening enzymes."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "high"
+                    }
+                  },
+                  {
+                    "id": "node-4-016",
+                    "title": "Nitrogen: 93-95%",
+                    "content": {
+                      "summary": "Inert filler gas.",
+                      "detailed": "Nitrogen serves as an inert filler gas, making up 95% initially and 93% after CO₂ adjustment."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  }
+                ],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["storage-parameters", "McIntosh"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-044",
+                "title": "Storage Duration Extension",
+                "content": {
+                  "summary": "Extends from 5 months (cold storage) to 8 months (CA).",
+                  "detailed": "CA storage extends McIntosh apple storage from 5 months in regular cold storage to 8 months under controlled atmosphere conditions.",
+                  "examples": [
+                    "Fresh McIntosh apples in May originate from CA storage facilities, not current harvest"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-045",
+                "title": "Scientific Principles",
+                "content": {
+                  "summary": "Slows respiration by limiting oxygen and increasing CO₂.",
+                  "detailed": "Living apples continue respiring after harvest, consuming oxygen and producing carbon dioxide, water, and heat while breaking down stored compounds. CA storage slows this process by limiting oxygen availability (substrate for respiration) and increasing carbon dioxide (which inhibits certain enzymes). Reduced oxygen slows aerobic respiration and ethylene production, while elevated carbon dioxide further inhibits ripening processes."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["respiration", "ripening", "senescence"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-046",
+                "title": "Quality Benefits",
+                "content": {
+                  "summary": "Maintains firmness, flavor, color, and texture better than cold storage alone.",
+                  "detailed": "Properly stored apples maintain firmness, flavor balance (sugars and acids), appealing color with less yellowing, and textural properties including crispness and juiciness longer than cold storage alone.",
+                  "examples": [
+                    "Fruit firmness testing shows CA-stored apples maintain 14-15 lbs force versus 10-11 lbs for cold storage"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["quality", "firmness", "flavor"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-047",
+                "title": "Variety-Specific Requirements",
+                "content": {
+                  "summary": "Different apple varieties require different CA conditions.",
+                  "detailed": "Different apple varieties require customized CA conditions. Granny Smith tolerates lower oxygen than McIntosh. Red Delicious requires different temperature and humidity combinations. Honeycrisp demands particularly precise management due to sensitivity to both low oxygen and high carbon dioxide.",
+                  "examples": [
+                    "Granny Smith apples tolerate lower oxygen levels than McIntosh"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["varieties", "customization"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-048",
+                "title": "Facility Requirements",
+                "content": {
+                  "summary": "Airtight rooms with monitoring and gas management systems.",
+                  "detailed": "CA storage rooms must be airtight to maintain controlled conditions. Monitoring systems continuously track oxygen, carbon dioxide, temperature, and humidity. Scrubbers remove excess carbon dioxide when levels exceed targets. Nitrogen generators or tanks supply nitrogen to replace oxygen consumed by respiration.",
+                  "examples": [
+                    "CA storage room atmosphere analyzer shows 2.5% O₂, 4.5% CO₂, 93% N₂ readings",
+                    "Nitrogen generator continuously supplies N₂ to replace O₂ consumed by respiration",
+                    "CO₂ scrubber removes excess carbon dioxide when levels exceed 4.5% target"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["facilities", "equipment", "monitoring"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-049",
+                "title": "Applications Beyond Apples",
+                "content": {
+                  "summary": "Used for pears, kiwifruit, avocados, and some vegetables.",
+                  "detailed": "CA storage applies beyond apples to many other fruits and some vegetables. Pears, kiwifruit, and avocados benefit from CA storage. Even some vegetables like cabbage and broccoli store better under modified atmospheres."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["controlled-atmosphere", "CA-storage", "preservation-technology"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-016",
+            "title": "Processing Methods and Products",
+            "content": {
+              "summary": "Multiple pathways create diverse products from apples.",
+              "detailed": "Apples destined for processing follow multiple pathways creating juice, cider, vinegar, sauce, pie fillings, and dried products. Each method demonstrates different food science principles and preservation techniques."
+            },
+            "children": [
+              {
+                "id": "node-3-050",
+                "title": "Juice Production",
+                "content": {
+                  "summary": "Crushing, pressing, filtering, and pasteurization.",
+                  "detailed": "Juice production involves crushing, pressing, filtering, and typically pasteurization or commercial sterilization for extended shelf life.",
+                  "examples": [
+                    "Apple juice undergoes pasteurization at 85-90°C for 15-30 seconds to ensure safety"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["juice", "pasteurization"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-051",
+                "title": "Fermentation Products",
+                "content": {
+                  "summary": "Cider and vinegar through microbial fermentation.",
+                  "detailed": "Fermentation with yeast produces hard cider containing alcohol and distinctive flavors. Cider can further ferment with acetic acid bacteria to create apple vinegar."
+                },
+                "children": [
+                  {
+                    "id": "node-4-017",
+                    "title": "Hard Cider",
+                    "content": {
+                      "summary": "Yeast fermentation converts sugars to alcohol.",
+                      "detailed": "Hard cider fermentation converts apple sugars to alcohol (typically 4-8% ABV) and creates distinctive flavors.",
+                      "examples": [
+                        "Hard cider fermentation converts apple sugars to alcohol (typically 4-8% ABV)"
+                      ]
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "tags": ["cider", "alcoholic-fermentation"],
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-018",
+                    "title": "Apple Vinegar",
+                    "content": {
+                      "summary": "Acetic acid bacteria ferment cider into vinegar.",
+                      "detailed": "Cider can further ferment with acetic acid bacteria to create apple vinegar, a useful condiment and ingredient."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "tags": ["vinegar", "acetic-fermentation"],
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  }
+                ],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["fermentation", "cider", "vinegar"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-052",
+                "title": "Thermal Processing Products",
+                "content": {
+                  "summary": "Apple sauce and pie fillings through cooking and canning.",
+                  "detailed": "Apple sauce involves cooking apples with added sugar, resulting in smooth or chunky products preserved through thermal processing in jars or cans. Pie fillings involve cooking with sugar, thickeners, and spices, then canning for stability. These products maintain quality for years at room temperature."
+                },
+                "children": [
+                  {
+                    "id": "node-4-019",
+                    "title": "Apple Sauce",
+                    "content": {
+                      "summary": "Cooked with sugar and thermally processed.",
+                      "detailed": "Apple sauce production involves cooking apples with added sugar (usually), resulting in smooth or chunky product preserved through thermal processing in jars or cans."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "tags": ["sauce", "canning"],
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "medium"
+                    }
+                  },
+                  {
+                    "id": "node-4-020",
+                    "title": "Pie Fillings",
+                    "content": {
+                      "summary": "Cooked with sugar, thickeners, and spices, then canned.",
+                      "detailed": "Pie fillings involve cooking with sugar, thickeners, and spices, then canning for stability at room temperature."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "tags": ["pie-filling", "canning"],
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  }
+                ],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["thermal-processing", "canning"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-053",
+                "title": "Dehydration Products",
+                "content": {
+                  "summary": "Dried apple slices and fruit leather through water removal.",
+                  "detailed": "Dehydration creates shelf-stable products by removing water to inhibit microbial growth and enzymatic reactions. Products include sliced dried apples and fruit leather."
+                },
+                "children": [
+                  {
+                    "id": "node-4-021",
+                    "title": "Dried Apple Slices",
+                    "content": {
+                      "summary": "Water removal creates shelf-stable snacks.",
+                      "detailed": "Sliced dried apples remove water to inhibit microbial growth and enzymatic reactions, creating shelf-stable snacks or ingredients for cereal and confectionery."
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "tags": ["drying", "snacks"],
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  },
+                  {
+                    "id": "node-4-022",
+                    "title": "Fruit Leather",
+                    "content": {
+                      "summary": "Apple puree with sugar dried into pliable sheets.",
+                      "detailed": "Fruit leather processes apple puree with added sugar into thin sheets that dry into pliable, concentrated products.",
+                      "examples": [
+                        "Fruit leather dries apple puree to approximately 20% moisture content for stability"
+                      ]
+                    },
+                    "children": [],
+                    "metadata": {
+                      "level": 4,
+                      "tags": ["fruit-leather", "drying"],
+                      "createdAt": "2025-11-01T00:00:00Z",
+                      "importance": "low"
+                    }
+                  }
+                ],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["dehydration", "drying"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["processing", "products"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-017",
+            "title": "Waste Stream and Co-Products",
+            "content": {
+              "summary": "Processing waste generates valuable co-products rather than disposal.",
+              "detailed": "Processing waste streams generate valuable co-products rather than true waste, improving economics and reducing environmental impact. Pomace becomes animal feed or compost. Pectin is extracted from cores and peels. Damaged apples serve as animal feed."
+            },
+            "children": [
+              {
+                "id": "node-3-054",
+                "title": "Pomace - Animal Feed/Compost",
+                "content": {
+                  "summary": "Pressed apple solids used productively.",
+                  "detailed": "Pomace (pressed apple solids) becomes animal feed or compost rather than waste."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              },
+              {
+                "id": "node-3-055",
+                "title": "Pectin Extraction",
+                "content": {
+                  "summary": "Valuable gelling agent from cores and peels.",
+                  "detailed": "Pectin extraction from apple cores and peels provides valuable gelling agent for jams and jellies.",
+                  "examples": [
+                    "Pectin extracted from apple pomace gels jam and jelly at proper sugar/acid ratios"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["pectin", "value-added"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-056",
+                "title": "Damaged Apples - Animal Feed",
+                "content": {
+                  "summary": "Unsuitable apples used productively rather than disposal.",
+                  "detailed": "Even damaged apples unsuitable for direct processing often serve as animal feed rather than disposal."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "low"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["waste", "co-products", "sustainability"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["apple-processing", "case-study", "food-processing"],
+          "createdAt": "2025-11-01T00:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-005",
+        "title": "Consumer Trends and Food Industry Response",
+        "content": {
+          "summary": "Canadian food consumption patterns reflect demographic changes, health consciousness, convenience demands, and cultural diversity, driving food industry innovation and product development.",
+          "detailed": "Understanding consumer trends enables food industry stakeholders to anticipate demand, develop appropriate products, and position offerings effectively. Ten major trends reflect fundamental demographic, social, economic, and cultural shifts affecting food choices: aging Canadians, food for health, new face of Canada (immigration), veggie movement, small indulgences, changing meal patterns, evolving society, convenience, educated consumers, and shifting expenditures. The 2023 update adds resizing the restaurant/retail gap, morphing meal patterns, sustainable superstars, everyday self-care, and gourmet convenience."
+        },
+        "children": [
+          {
+            "id": "node-2-018",
+            "title": "Demographic Trends",
+            "content": {
+              "summary": "Population changes driving product development and marketing.",
+              "detailed": "Demographic shifts including aging population, immigration, and changing household structures fundamentally alter food demand patterns."
+            },
+            "children": [
+              {
+                "id": "node-3-057",
+                "title": "Aging Canadians",
+                "content": {
+                  "summary": "Demand for health-focused, easy-to-use products for seniors.",
+                  "detailed": "Aging population drives demand for products addressing senior-specific concerns including bone health, heart health, cognitive function, and ease of preparation. Smaller portion sizes, easy-open packaging, and products addressing age-related health conditions gain importance.",
+                  "examples": [
+                    "Probiotic yogurt products highlighting digestive health benefits for aging consumers"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["aging", "seniors", "demographics"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-058",
+                "title": "New Face of Canada",
+                "content": {
+                  "summary": "Immigration creates demand for diverse cuisines and ethnic foods.",
+                  "detailed": "Immigration profoundly impacts food consumption patterns. Immigrant populations bring diverse food traditions, ingredient preferences, cooking techniques, and flavor profiles. This creates demand for ethnic foods, specialty ingredients, and fusion products combining multiple culinary traditions.",
+                  "examples": [
+                    "Supermarkets stock international ingredients; restaurants offer diverse global cuisines"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["immigration", "diversity", "ethnic-foods"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-059",
+                "title": "Evolving Society",
+                "content": {
+                  "summary": "Single-person households, dual-income families, changing gender roles.",
+                  "detailed": "Social changes including more single-person households, dual-income families, urban densification, and changing gender roles affect shopping patterns, cooking time, and food preparation skills. Smaller household sizes drive smaller package sizes and pre-portioned products.",
+                  "examples": [
+                    "Single-serve packaging for individual consumption; pre-portioned meal components"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["social-change", "households", "demographics"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["demographics", "population"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-019",
+            "title": "Health and Wellness Trends",
+            "content": {
+              "summary": "Growing emphasis on diet for disease prevention and wellness.",
+              "detailed": "Health consciousness drives demand for functional foods, reformulated products, and plant-based options."
+            },
+            "children": [
+              {
+                "id": "node-3-060",
+                "title": "Food for Health",
+                "content": {
+                  "summary": "Using diet to prevent disease and promote wellness.",
+                  "detailed": "Growing consumer interest in using diet to prevent disease and promote wellness. Functional foods and beverages containing added nutrients, probiotics, omega-3 fatty acids, fiber, and bioactive compounds appeal to health-conscious consumers. Reformulation reduces sodium, sugar, and trans fats while adding beneficial ingredients.",
+                  "examples": [
+                    "Products highlighting specific health benefits supported by scientific evidence"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["health", "functional-foods", "nutrition"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-061",
+                "title": "Veggie Movement",
+                "content": {
+                  "summary": "Plant-based eating including vegetarianism, veganism, flexitarianism.",
+                  "detailed": "Trends toward plant-based eating driven by environmental concerns, animal welfare, health benefits, and cultural factors. Drives development of plant-based meat alternatives, dairy alternatives, and products emphasizing vegetable content.",
+                  "examples": [
+                    "Plant-based burger patties achieving meat-like texture and flavor through food science innovation"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["plant-based", "vegetarian", "environmental"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-062",
+                "title": "Everyday Self-Care (2023)",
+                "content": {
+                  "summary": "Food as part of wellness routines for stress and mood support.",
+                  "detailed": "Food positioned as part of wellness routines including stress management, energy optimization, and mood support rather than only disease prevention. Adaptogens, botanical ingredients, functional beverages, and products supporting mental wellness grow in popularity."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["wellness", "mental-health", "self-care"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["health", "wellness"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-020",
+            "title": "Convenience and Lifestyle Trends",
+            "content": {
+              "summary": "Time-pressed consumers seek solutions balancing convenience with quality.",
+              "detailed": "Convenience remains paramount for busy consumers, with evolving definitions including ready-to-eat meals, meal kits, pre-cut vegetables, and simplified cooking."
+            },
+            "children": [
+              {
+                "id": "node-3-063",
+                "title": "Convenience",
+                "content": {
+                  "summary": "Ready-to-eat, meal kits, pre-cut vegetables for time-pressed consumers.",
+                  "detailed": "Convenience remains paramount for busy consumers. Ready-to-eat meals, meal kits, pre-cut vegetables, pre-marinated proteins, and simplified instructions address convenience needs. Definition evolves to include semi-prepared products requiring minimal finishing.",
+                  "examples": [
+                    "Meal kit subscriptions delivering pre-portioned ingredients with simple recipe instructions"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["convenience", "ready-to-eat", "meal-kits"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-064",
+                "title": "Changing Meal Patterns",
+                "content": {
+                  "summary": "Traditional meal structure giving way to grazing and non-traditional timing.",
+                  "detailed": "Traditional breakfast-lunch-dinner structure increasingly gives way to grazing, snacking throughout the day, and meals at non-traditional times. Busy schedules, shift work, and mobile lifestyles contribute. Drives demand for portable foods, snack-sized portions, and products suitable anytime.",
+                  "examples": [
+                    "Portable snacks suitable for consumption anytime, anywhere"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["meal-patterns", "snacking", "lifestyle"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-065",
+                "title": "Morphing Meal Patterns (2023)",
+                "content": {
+                  "summary": "Breakfast-for-dinner, lunch-style dinners, rejection of timing conventions.",
+                  "detailed": "Increased breakfast-for-dinner, lunch-style dinner meals, and complete rejection of meal timing conventions by some consumers. Product development must accommodate consumption at any time rather than assuming traditional meal occasions."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["meal-patterns", "flexibility"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-066",
+                "title": "Gourmet Convenience (2023)",
+                "content": {
+                  "summary": "Premium ready-to-eat or easy-to-prepare products with restaurant quality.",
+                  "detailed": "Combines convenience and small indulgences trends, representing premium ready-to-eat or easy-to-prepare products delivering restaurant-quality results at home. Enables impressive meals without extensive cooking skills or time investment.",
+                  "examples": [
+                    "Premium meal kits with chef-designed recipes and high-quality ingredients"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["gourmet", "convenience", "premium"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["convenience", "lifestyle"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-021",
+            "title": "Consumer Behavior and Values",
+            "content": {
+              "summary": "Educated consumers demand transparency, sustainability, and value.",
+              "detailed": "Consumers increasingly research products, demand transparency, prioritize sustainability, and seek value while balancing indulgences."
+            },
+            "children": [
+              {
+                "id": "node-3-067",
+                "title": "Educated Consumers",
+                "content": {
+                  "summary": "Researching products, reading labels, investigating sources.",
+                  "detailed": "Consumers increasingly research food products before purchasing, reading labels, checking nutrition information, investigating ingredient sources, and seeking production method information. Internet and smartphone access enables instant verification. Drives demand for transparency—clear labeling, traceability, and communication about sourcing.",
+                  "examples": [
+                    "QR codes on packaging providing traceability information about ingredient sourcing"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["transparency", "education", "labels"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-068",
+                "title": "Sustainable Superstars (2023)",
+                "content": {
+                  "summary": "Environmental impact, ethical production, corporate responsibility.",
+                  "detailed": "Growing consumer emphasis on environmental impact, ethical production, and corporate responsibility. Products highlighting sustainability, carbon footprint reduction, responsible sourcing, and minimal packaging gain favor, particularly among younger consumers.",
+                  "examples": [
+                    "Products with minimal packaging and carbon footprint disclosure"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["sustainability", "environment", "ethics"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "high"
+                }
+              },
+              {
+                "id": "node-3-069",
+                "title": "Small Indulgences",
+                "content": {
+                  "summary": "Premium, indulgent products in moderate portions.",
+                  "detailed": "Consumer desire for premium, indulgent products in moderate portions. Rather than eliminating treats entirely, consumers purchase higher-quality chocolate, premium ice cream, gourmet baked goods, and specialty snacks in smaller servings. Supports premiumization—willingness to pay more for superior quality.",
+                  "examples": [
+                    "Single-serve premium ice cream pints allowing indulgence without buying larger quantities"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["indulgence", "premium", "portions"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              },
+              {
+                "id": "node-3-070",
+                "title": "Shifting Expenditures",
+                "content": {
+                  "summary": "Seeking value while balancing competing budget priorities.",
+                  "detailed": "Household budget allocation changes driven by housing costs, transportation, debt, and competing priorities. Consumers seek value—maximum quality, nutrition, and satisfaction per dollar. Drives private label purchasing, bulk buying, price comparison, coupon use, and strategic splurging.",
+                  "examples": [
+                    "Strategic purchasing: premium items where it matters, economizing on others"
+                  ]
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["budget", "value", "economics"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["consumer-behavior", "values"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-022",
+            "title": "Market Structure Changes (2023)",
+            "content": {
+              "summary": "Blurring boundaries between restaurant and retail channels.",
+              "detailed": "Restaurants increasingly offer retail products while retailers expand fresh food offerings, blurring traditional channel boundaries."
+            },
+            "children": [
+              {
+                "id": "node-3-071",
+                "title": "Resizing the Restaurant/Retail Gap",
+                "content": {
+                  "summary": "Restaurants offer retail products; retailers expand food service.",
+                  "detailed": "Restaurants increasingly offer retail products (meal kits, packaged sauces, merchandise) while retailers expand fresh food offerings including in-store restaurants, food courts, and ready-to-eat meals. This convergence blurs traditional channel boundaries."
+                },
+                "children": [],
+                "metadata": {
+                  "level": 3,
+                  "tags": ["retail", "restaurant", "channels"],
+                  "createdAt": "2025-11-01T00:00:00Z",
+                  "importance": "medium"
+                }
+              }
+            ],
+            "metadata": {
+              "level": 2,
+              "tags": ["market-structure", "channels"],
+              "createdAt": "2025-11-01T00:00:00Z",
+              "importance": "medium"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["consumer-trends", "market-trends", "food-industry"],
+          "createdAt": "2025-11-01T00:00:00Z",
+          "importance": "high"
+        }
+      }
+    ],
+    "metadata": {
+      "level": 0,
+      "createdAt": "2025-11-01T00:00:00Z",
+      "tags": ["FNH-200", "food-science", "UBC", "course"]
+    }
+  },
+  "metadata": {
+    "createdAt": "2025-11-01T00:00:00Z",
+    "updatedAt": "2025-11-01T00:00:00Z",
+    "sourceFile": "fnh-200-chapter1.md",
+    "totalNodes": 143,
+    "maxDepth": 4,
+    "tags": [
+      "FNH-200",
+      "food-science",
+      "UBC",
+      "course",
+      "course-administration",
+      "canvas",
+      "evaluation",
+      "learning-objectives",
+      "multidisciplinary",
+      "food-technology",
+      "agriculture",
+      "nutrition",
+      "food-history",
+      "pioneers",
+      "Canadian-food-system",
+      "primary-production",
+      "distribution",
+      "food-expenditure",
+      "consumption-trends",
+      "apple-processing",
+      "controlled-atmosphere",
+      "CA-storage",
+      "fermentation",
+      "consumer-trends",
+      "demographics",
+      "health",
+      "wellness",
+      "convenience",
+      "sustainability"
+    ],
+    "version": "1.0.0"
+  }
+}

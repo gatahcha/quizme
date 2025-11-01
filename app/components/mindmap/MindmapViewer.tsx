@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useState, useMemo } from 'react';
+import { useCallback, useState, useMemo, useEffect, useRef } from 'react';
 import ReactFlow, {
   Node,
   Edge,
@@ -10,6 +10,8 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   NodeTypes,
+  useReactFlow,
+  ReactFlowProvider,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { MindmapNode } from '@/app/lib/types/mindmap';
@@ -29,6 +31,7 @@ function buildNodesAndEdges(
   node: MindmapNode,
   position: { x: number; y: number },
   expanded: Set<string>,
+  selectedNodeId: string | null,
   level: number = 0
 ): { nodes: Node[]; edges: Edge[] } {
   const nodes: Node[] = [];
@@ -36,11 +39,13 @@ function buildNodesAndEdges(
 
   const nodeId = node.id;
   const isExpanded = expanded.has(nodeId);
+  const isSelected = selectedNodeId === nodeId;
 
   const nodeData = {
     ...node,
     level,
     isExpanded,
+    isSelected,
   };
 
   nodes.push({
@@ -48,6 +53,11 @@ function buildNodesAndEdges(
     type: 'mindmapNode',
     position,
     data: nodeData,
+    selected: isSelected,
+    style: isSelected ? {
+      border: '3px solid #175DDC',
+      boxShadow: '0 0 20px rgba(23, 93, 220, 0.5)',
+    } : undefined,
   });
 
   if (isExpanded && node.children.length > 0) {
@@ -63,6 +73,7 @@ function buildNodesAndEdges(
         child,
         childPosition,
         expanded,
+        selectedNodeId,
         level + 1
       );
       
@@ -82,10 +93,13 @@ function buildNodesAndEdges(
   return { nodes, edges };
 }
 
-export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerProps) {
+function MindmapViewerInner({ rootNode, onNodeClick }: MindmapViewerProps) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set([rootNode.id]));
   const [selectedNode, setSelectedNode] = useState<MindmapNode | null>(null);
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
   const [showAside, setShowAside] = useState(false);
+  const { getNode, setCenter, getViewport } = useReactFlow();
+  const centeringTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const toggleExpand = useCallback((nodeId: string) => {
     setExpanded(prev => {
@@ -100,8 +114,8 @@ export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerPr
   }, []);
 
   const { nodes, edges } = useMemo(() => {
-    return buildNodesAndEdges(rootNode, { x: 100, y: 400 }, expanded);
-  }, [rootNode, expanded]);
+    return buildNodesAndEdges(rootNode, { x: 100, y: 400 }, expanded, selectedNodeId);
+  }, [rootNode, expanded, selectedNodeId]);
 
   const [nodesState, setNodes, onNodesChange] = useNodesState(nodes);
   const [edgesState, setEdges, onEdgesChange] = useEdgesState(edges);
@@ -124,7 +138,26 @@ export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerPr
       toggleExpand(node.id);
     }
     
-    // Always show details in aside when clicked
+    // Set selected node for highlighting
+    setSelectedNodeId(node.id);
+    
+    // Center the view on the clicked node
+    // Use setTimeout to ensure nodes are rendered before centering
+    if (centeringTimeoutRef.current) {
+      clearTimeout(centeringTimeoutRef.current);
+    }
+    
+    centeringTimeoutRef.current = setTimeout(() => {
+      const reactFlowNode = getNode(node.id);
+      if (reactFlowNode) {
+        const x = reactFlowNode.position.x + (reactFlowNode.width || 250) / 2;
+        const y = reactFlowNode.position.y + (reactFlowNode.height || 100) / 2;
+        const zoom = getViewport().zoom;
+        setCenter(x, y, { zoom, duration: 400 });
+      }
+    }, 150);
+    
+    // Show details in aside when clicked
     const actualNode = findNodeInTree(rootNode, node.id);
     if (actualNode) {
       setSelectedNode(actualNode);
@@ -133,14 +166,23 @@ export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerPr
         onNodeClick(actualNode);
       }
     }
-  }, [toggleExpand, rootNode, onNodeClick, findNodeInTree]);
+  }, [toggleExpand, rootNode, onNodeClick, findNodeInTree, getNode, setCenter, getViewport]);
+  
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (centeringTimeoutRef.current) {
+        clearTimeout(centeringTimeoutRef.current);
+      }
+    };
+  }, []);
 
-  // Update nodes when expanded changes
-  useMemo(() => {
-    const newNodesAndEdges = buildNodesAndEdges(rootNode, { x: 100, y: 400 }, expanded);
+  // Update nodes when expanded or selected changes
+  useEffect(() => {
+    const newNodesAndEdges = buildNodesAndEdges(rootNode, { x: 100, y: 400 }, expanded, selectedNodeId);
     setNodes(newNodesAndEdges.nodes);
     setEdges(newNodesAndEdges.edges);
-  }, [rootNode, expanded, setNodes, setEdges]);
+  }, [rootNode, expanded, selectedNodeId, setNodes, setEdges]);
 
   return (
     <div className="w-full h-full relative flex overflow-hidden">
@@ -154,6 +196,7 @@ export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerPr
           nodeTypes={nodeTypes}
           fitView
           className="bg-gray-50"
+          nodesDraggable={false}
         >
           <Background />
           <Controls />
@@ -170,10 +213,19 @@ export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerPr
             onClose={() => {
               setShowAside(false);
               setSelectedNode(null);
+              setSelectedNodeId(null);
             }}
           />
         )}
       </div>
     </div>
+  );
+}
+
+export default function MindmapViewer({ rootNode, onNodeClick }: MindmapViewerProps) {
+  return (
+    <ReactFlowProvider>
+      <MindmapViewerInner rootNode={rootNode} onNodeClick={onNodeClick} />
+    </ReactFlowProvider>
   );
 }
