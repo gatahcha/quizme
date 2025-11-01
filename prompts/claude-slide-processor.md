@@ -89,6 +89,7 @@ Generate a markdown document following this exact structure:
    - Include 2-5 key points per major topic
    - Provide 2-4 examples per topic where relevant
    - Examples should be concrete and illustrative
+   - **Parent-child relationships**: When creating subtopics, ensure each child's summary clearly explains how it relates to or details the parent topic
 
 4. **Completeness**: Extract ALL important information from the slides, including:
    - Definitions and explanations
@@ -96,6 +97,7 @@ Generate a markdown document following this exact structure:
    - Relationships between concepts
    - Important distinctions or comparisons
    - Practical applications
+   - **IMPORTANT**: For each parent topic, ensure its children topics have clear summaries that relate to the parent and show how they build upon or detail the parent concept
 
 5. **Quiz Considerations**: 
    - Identify concepts suitable for different question types

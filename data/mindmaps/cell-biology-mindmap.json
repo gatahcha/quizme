@@ -1,0 +1,187 @@
+{
+  "id": "mm-1705401600000-cellbiol",
+  "title": "Cell Biology Fundamentals",
+  "description": "Comprehensive study of cellular structure, functions, and processes in living organisms",
+  "rootNode": {
+    "id": "node-root",
+    "title": "Cell Biology",
+    "content": {
+      "summary": "Cell biology is the study of cells, their structure, function, and the processes that occur within them.",
+      "detailed": "Cell biology, also known as cytology, is a branch of biology that studies the structure and function of cells. All living organisms are composed of cells, which are the basic units of life. Cells can be prokaryotic (simple, no nucleus) or eukaryotic (complex, with nucleus). Understanding cells is fundamental to understanding all life processes, from metabolism to reproduction.",
+      "keyPoints": [
+        "Cells are the basic units of life",
+        "Two main types: prokaryotic and eukaryotic",
+        "All cells share common features like cell membrane and genetic material",
+        "Cells carry out all life processes"
+      ],
+      "examples": [
+        "Bacteria (prokaryotic cells)",
+        "Plant and animal cells (eukaryotic)",
+        "Red blood cells carrying oxygen",
+        "Neurons transmitting signals"
+      ]
+    },
+    "children": [
+      {
+        "id": "node-1-001",
+        "title": "Cell Structure",
+        "content": {
+          "summary": "The physical components that make up a cell and their organization.",
+          "detailed": "Cell structure refers to the various organelles and components that compose a cell. Each organelle has specific functions that contribute to the cell's overall operation. The organization of these structures allows cells to carry out complex processes efficiently.",
+          "keyPoints": [
+            "Cell membrane separates cell from environment",
+            "Cytoplasm contains organelles and cytosol",
+            "Nucleus houses genetic material in eukaryotes",
+            "Organelles have specialized functions"
+          ],
+          "examples": [
+            "Mitochondria producing energy",
+            "Nucleus containing DNA",
+            "Ribosomes synthesizing proteins",
+            "Endoplasmic reticulum processing materials"
+          ],
+          "tags": ["cell-structure", "organelles"]
+        },
+        "children": [
+          {
+            "id": "node-2-001",
+            "title": "Cell Membrane",
+            "content": {
+              "summary": "The phospholipid bilayer that encloses the cell and controls what enters and exits.",
+              "detailed": "The cell membrane, also known as the plasma membrane, is a selectively permeable barrier that surrounds the cell. It consists of a phospholipid bilayer with embedded proteins. This structure allows the cell to maintain homeostasis by controlling the movement of substances.",
+              "keyPoints": [
+                "Selectively permeable",
+                "Made of phospholipid bilayer",
+                "Contains proteins for transport",
+                "Maintains cell integrity"
+              ],
+              "examples": [
+                "Osmosis through membrane",
+                "Active transport using ATP",
+                "Receptor proteins receiving signals"
+              ],
+              "metadata": {
+                "level": 2,
+                "importance": "high",
+                "tags": ["cell-membrane", "membrane"]
+              }
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["cell-membrane"],
+              "createdAt": "2024-01-15T10:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-002",
+            "title": "Nucleus",
+            "content": {
+              "summary": "The organelle that contains the cell's genetic material and controls cellular activities.",
+              "detailed": "The nucleus is the control center of the cell, housing the DNA that contains all genetic information. It is surrounded by a nuclear envelope with pores that control the movement of materials. The nucleus directs protein synthesis and regulates cell division.",
+              "keyPoints": [
+                "Contains DNA",
+                "Controls cell activities",
+                "Surrounded by nuclear envelope",
+                "Site of transcription"
+              ],
+              "examples": [
+                "DNA replication before cell division",
+                "RNA synthesis for protein production",
+                "Gene expression regulation"
+              ],
+              "metadata": {
+                "level": 2,
+                "importance": "high",
+                "tags": ["nucleus", "dna"]
+              }
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["nucleus"],
+              "createdAt": "2024-01-15T10:00:00Z",
+              "importance": "high"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["cell-structure"],
+          "createdAt": "2024-01-15T10:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-002",
+        "title": "Cell Division",
+        "content": {
+          "summary": "The process by which cells reproduce and multiply.",
+          "detailed": "Cell division is essential for growth, repair, and reproduction. There are two main types: mitosis (produces identical cells for growth and repair) and meiosis (produces gametes for reproduction). The cell cycle includes interphase (growth and DNA replication) and division phases.",
+          "keyPoints": [
+            "Essential for growth and reproduction",
+            "Two types: mitosis and meiosis",
+            "Cell cycle includes interphase and division",
+            "DNA replication occurs before division"
+          ],
+          "examples": [
+            "Skin cells dividing to heal wounds",
+            "Bone marrow producing blood cells",
+            "Sperm and egg formation (meiosis)",
+            "Embryo development"
+          ],
+          "tags": ["cell-division", "mitosis", "meiosis"]
+        },
+        "children": [],
+        "metadata": {
+          "level": 1,
+          "tags": ["cell-division"],
+          "createdAt": "2024-01-15T10:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-003",
+        "title": "Cell Types",
+        "content": {
+          "summary": "Different categories of cells based on their structure and function.",
+          "detailed": "Cells can be classified in various ways: by structure (prokaryotic vs eukaryotic), by function (muscle, nerve, blood cells), or by organism (plant vs animal). Each type has specialized features adapted to its role.",
+          "keyPoints": [
+            "Prokaryotic: simple, no nucleus",
+            "Eukaryotic: complex, has nucleus",
+            "Specialized cells have unique functions",
+            "Plant and animal cells differ"
+          ],
+          "examples": [
+            "Bacteria (prokaryotic)",
+            "Muscle cells (contractile function)",
+            "Nerve cells (signal transmission)",
+            "Plant cells (photosynthesis)"
+          ],
+          "tags": ["cell-types", "prokaryotic", "eukaryotic"]
+        },
+        "children": [],
+        "metadata": {
+          "level": 1,
+          "tags": ["cell-types"],
+          "createdAt": "2024-01-15T10:00:00Z",
+          "importance": "medium"
+        }
+      }
+    ],
+    "metadata": {
+      "level": 0,
+      "createdAt": "2024-01-15T10:00:00Z"
+    }
+  },
+  "metadata": {
+    "createdAt": "2024-01-15T10:00:00Z",
+    "updatedAt": "2024-01-15T10:00:00Z",
+    "sourceFile": "cell-biology.md",
+    "totalNodes": 7,
+    "maxDepth": 2,
+    "tags": ["biology", "cell-biology", "science"],
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "id": "quiz-1705401600000-cell-quiz",
+  "title": "Cell Biology Fundamentals Quiz",
+  "description": "Test your knowledge of cell structure, function, and biological processes",
+  "subject": "Biology",
+  "questions": [
+    {
+      "id": "q-001",
+      "type": "multiple-choice",
+      "question": "What is the main function of the cell membrane?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "To produce energy",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "To control what enters and exits the cell",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "To store genetic material",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "To synthesize proteins",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The cell membrane is a selectively permeable barrier that controls the movement of substances into and out of the cell, maintaining homeostasis.",
+      "metadata": {
+        "tags": ["cell-membrane", "basics"]
+      }
+    },
+    {
+      "id": "q-002",
+      "type": "true-false",
+      "question": "All cells contain a nucleus.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": false,
+      "explanation": "Only eukaryotic cells contain a nucleus. Prokaryotic cells, like bacteria, do not have a nucleus.",
+      "metadata": {
+        "tags": ["cell-types", "nucleus"]
+      }
+    },
+    {
+      "id": "q-003",
+      "type": "matching",
+      "question": "Match each organelle with its primary function:",
+      "difficulty": "medium",
+      "points": 20,
+      "leftItems": [
+        {
+          "id": "left-1",
+          "text": "Nucleus"
+        },
+        {
+          "id": "left-2",
+          "text": "Mitochondria"
+        },
+        {
+          "id": "left-3",
+          "text": "Ribosomes"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "right-1",
+          "text": "Contains DNA and controls cell activities",
+          "correctMatchId": "left-1"
+        },
+        {
+          "id": "right-2",
+          "text": "Produces energy (ATP)",
+          "correctMatchId": "left-2"
+        },
+        {
+          "id": "right-3",
+          "text": "Synthesizes proteins",
+          "correctMatchId": "left-3"
+        }
+      ],
+      "explanation": "Each organelle has a specialized function: nucleus controls the cell and contains DNA, mitochondria produce energy, and ribosomes synthesize proteins.",
+      "metadata": {
+        "tags": ["organelles", "cell-structure"]
+      }
+    },
+    {
+      "id": "q-004",
+      "type": "multiple-choice",
+      "question": "What is the main difference between mitosis and meiosis?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Mitosis produces gametes, meiosis produces body cells",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Mitosis produces identical cells, meiosis produces genetically diverse gametes",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Mitosis only occurs in plants",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "There is no difference",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mitosis produces two identical diploid cells for growth and repair, while meiosis produces four genetically diverse haploid gametes for reproduction.",
+      "metadata": {
+        "tags": ["cell-division", "mitosis", "meiosis"]
+      }
+    },
+    {
+      "id": "q-005",
+      "type": "true-false",
+      "question": "Prokaryotic cells are more complex than eukaryotic cells.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": false,
+      "explanation": "Eukaryotic cells are more complex, containing a nucleus and various membrane-bound organelles. Prokaryotic cells are simpler and lack a nucleus.",
+      "metadata": {
+        "tags": ["cell-types", "prokaryotic", "eukaryotic"]
+      }
+    },
+    {
+      "id": "q-006",
+      "type": "multiple-choice",
+      "question": "Which type of cell division is essential for sexual reproduction?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Mitosis",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Meiosis",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Binary fission",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Budding",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Meiosis produces gametes (sperm and egg cells) with half the genetic material, which is essential for sexual reproduction.",
+      "metadata": {
+        "tags": ["meiosis", "cell-division", "reproduction"]
+      }
+    },
+    {
+      "id": "q-007",
+      "type": "true-false",
+      "question": "The cell membrane is made up of a single layer of phospholipids.",
+      "difficulty": "medium",
+      "points": 15,
+      "correctAnswer": false,
+      "explanation": "The cell membrane is a phospholipid bilayer, meaning it has two layers of phospholipids with hydrophilic heads facing outward and hydrophobic tails facing inward.",
+      "metadata": {
+        "tags": ["cell-membrane", "structure"]
+      }
+    },
+    {
+      "id": "q-008",
+      "type": "multiple-choice",
+      "question": "What happens during the interphase of the cell cycle?",
+      "difficulty": "hard",
+      "points": 20,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Cell divides into two cells",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Cell grows, replicates DNA, and prepares for division",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Cell dies",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Cell becomes dormant",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "During interphase, the cell grows, replicates its DNA, and prepares all necessary components for cell division.",
+      "metadata": {
+        "tags": ["cell-cycle", "interphase", "dna-replication"]
+      }
+    },
+    {
+      "id": "q-009",
+      "type": "true-false",
+      "question": "Plant cells have chloroplasts, which animal cells do not have.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": true,
+      "explanation": "Chloroplasts are organelles found in plant cells (and some protists) that carry out photosynthesis. Animal cells do not have chloroplasts.",
+      "metadata": {
+        "tags": ["plant-cells", "chloroplasts", "cell-types"]
+      }
+    },
+    {
+      "id": "q-010",
+      "type": "multiple-choice",
+      "question": "What is the primary function of mitochondria in cells?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "To store genetic information",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "To produce energy (ATP) through cellular respiration",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "To synthesize proteins",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "To control cell activities",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mitochondria are the powerhouses of the cell, producing ATP (energy) through cellular respiration.",
+      "metadata": {
+        "tags": ["mitochondria", "energy", "organelles"]
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2024-01-15T10:00:00Z",
+    "sourceFile": "cell-biology.md",
+    "totalQuestions": 10,
+    "estimatedTime": 20,
+    "difficultyDistribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1,
+      "expert": 0
+    },
+    "tags": ["biology", "cell-biology", "science"],
+    "version": "1.0.0"
+  },
+  "settings": {
+    "shuffleQuestions": true,
+    "shuffleAnswers": true,
+    "timeLimit": 35,
+    "passingScore": 70
+  }
+}

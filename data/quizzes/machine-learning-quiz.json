@@ -1,0 +1,283 @@
+{
+  "id": "quiz-1705315200000-ml-quiz",
+  "title": "Machine Learning Fundamentals Quiz",
+  "description": "Test your understanding of machine learning core concepts, algorithms, and applications",
+  "subject": "Machine Learning",
+  "questions": [
+    {
+      "id": "q-001",
+      "type": "multiple-choice",
+      "question": "What is the primary requirement for supervised learning?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Unlabeled training data",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Labeled training data",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Reinforcement signals",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "No training data needed",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Supervised learning requires labeled datasets where each training example has a corresponding output label to learn from.",
+      "metadata": {
+        "tags": ["supervised-learning", "basics"]
+      }
+    },
+    {
+      "id": "q-002",
+      "type": "true-false",
+      "question": "Machine learning models always improve with more training data.",
+      "difficulty": "medium",
+      "points": 15,
+      "correctAnswer": false,
+      "explanation": "While more data often helps, there are diminishing returns and potential issues like overfitting or poor quality data that can harm performance.",
+      "metadata": {
+        "tags": ["data-quality", "overfitting"]
+      }
+    },
+    {
+      "id": "q-003",
+      "type": "matching",
+      "question": "Match each learning type with its primary characteristic:",
+      "difficulty": "hard",
+      "points": 20,
+      "leftItems": [
+        {
+          "id": "left-1",
+          "text": "Supervised Learning"
+        },
+        {
+          "id": "left-2",
+          "text": "Unsupervised Learning"
+        },
+        {
+          "id": "left-3",
+          "text": "Reinforcement Learning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "right-1",
+          "text": "Uses labeled data",
+          "correctMatchId": "left-1"
+        },
+        {
+          "id": "right-2",
+          "text": "Discovers hidden patterns",
+          "correctMatchId": "left-2"
+        },
+        {
+          "id": "right-3",
+          "text": "Learns through rewards",
+          "correctMatchId": "left-3"
+        }
+      ],
+      "explanation": "Each learning paradigm has distinct characteristics: supervised learning uses labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning uses rewards/penalties.",
+      "metadata": {
+        "tags": ["comparison", "learning-types"]
+      }
+    },
+    {
+      "id": "q-004",
+      "type": "multiple-choice",
+      "question": "What type of machine learning is used for predicting continuous numerical values?",
+      "difficulty": "easy",
+      "points": 10,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Classification",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Regression",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Clustering",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Reinforcement Learning",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Regression algorithms predict continuous numerical values, while classification predicts discrete categories.",
+      "metadata": {
+        "tags": ["regression", "supervised-learning"]
+      }
+    },
+    {
+      "id": "q-005",
+      "type": "true-false",
+      "question": "Unsupervised learning requires labeled training examples to discover patterns.",
+      "difficulty": "easy",
+      "points": 10,
+      "correctAnswer": false,
+      "explanation": "Unsupervised learning works with unlabeled data. If it required labels, it would be supervised learning.",
+      "metadata": {
+        "tags": ["unsupervised-learning", "basics"]
+      }
+    },
+    {
+      "id": "q-006",
+      "type": "multiple-choice",
+      "question": "Which of the following is an example of reinforcement learning?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Email spam detection",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Customer segmentation",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-3",
+          "text": "Game-playing AI that learns from wins and losses",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-4",
+          "text": "Predicting house prices",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Game-playing AI that learns from wins (rewards) and losses (penalties) is a classic example of reinforcement learning.",
+      "metadata": {
+        "tags": ["reinforcement-learning", "examples"]
+      }
+    },
+    {
+      "id": "q-007",
+      "type": "true-false",
+      "question": "Classification algorithms always output binary (yes/no) results.",
+      "difficulty": "medium",
+      "points": 15,
+      "correctAnswer": false,
+      "explanation": "Classification can be binary (two classes) or multi-class (more than two classes).",
+      "metadata": {
+        "tags": ["classification", "types"]
+      }
+    },
+    {
+      "id": "q-008",
+      "type": "multiple-choice",
+      "question": "What is the main purpose of clustering in unsupervised learning?",
+      "difficulty": "medium",
+      "points": 15,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "To predict future values",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "To group similar data points together",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "To classify data into known categories",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "To learn from rewards",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Clustering groups similar data points together based on their characteristics, without requiring pre-defined categories.",
+      "metadata": {
+        "tags": ["clustering", "unsupervised-learning"]
+      }
+    },
+    {
+      "id": "q-009",
+      "type": "true-false",
+      "question": "Reinforcement learning is primarily used for problems involving sequential decision-making.",
+      "difficulty": "hard",
+      "points": 20,
+      "correctAnswer": true,
+      "explanation": "Reinforcement learning excels at sequential decision-making problems where actions taken now affect future outcomes, such as game playing, robotics, and autonomous systems.",
+      "metadata": {
+        "tags": ["reinforcement-learning", "applications"]
+      }
+    },
+    {
+      "id": "q-010",
+      "type": "multiple-choice",
+      "question": "What distinguishes supervised learning from unsupervised learning?",
+      "difficulty": "hard",
+      "points": 20,
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Supervised learning uses neural networks, unsupervised doesn't",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-2",
+          "text": "Supervised learning uses labeled data, unsupervised uses unlabeled data",
+          "isCorrect": true
+        },
+        {
+          "id": "opt-3",
+          "text": "Supervised learning is faster than unsupervised",
+          "isCorrect": false
+        },
+        {
+          "id": "opt-4",
+          "text": "Supervised learning only works with images",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The key distinction is that supervised learning uses labeled training data (input-output pairs), while unsupervised learning works with unlabeled data to discover patterns.",
+      "metadata": {
+        "tags": ["comparison", "basics"]
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2024-01-15T10:00:00Z",
+    "sourceFile": "machine-learning.md",
+    "totalQuestions": 10,
+    "estimatedTime": 20,
+    "difficultyDistribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2,
+      "expert": 0
+    },
+    "tags": ["machine-learning", "ai", "fundamentals"],
+    "version": "1.0.0"
+  },
+  "settings": {
+    "shuffleQuestions": true,
+    "shuffleAnswers": true,
+    "timeLimit": 35,
+    "passingScore": 70
+  }
+}

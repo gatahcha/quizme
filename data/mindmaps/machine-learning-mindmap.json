@@ -1,0 +1,189 @@
+{
+  "id": "mm-1705315200000-machinel",
+  "title": "Machine Learning Fundamentals",
+  "description": "Comprehensive overview of machine learning concepts, algorithms, and applications",
+  "rootNode": {
+    "id": "node-root",
+    "title": "Machine Learning",
+    "content": {
+      "summary": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without explicit programming.",
+      "detailed": "Machine learning algorithms build mathematical models based on training data to make predictions or decisions without being explicitly programmed. It focuses on developing computer programs that can access data and use it to learn for themselves. The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples we provide.",
+      "keyPoints": [
+        "Learns from data patterns without explicit programming",
+        "Three main types: supervised, unsupervised, and reinforcement learning",
+        "Widely used in various applications from image recognition to recommendation systems",
+        "Requires quality data for effective learning"
+      ],
+      "examples": [
+        "Email spam detection systems",
+        "Image recognition in photos",
+        "Product recommendation engines",
+        "Voice assistants like Siri and Alexa"
+      ]
+    },
+    "children": [
+      {
+        "id": "node-1-001",
+        "title": "Supervised Learning",
+        "content": {
+          "summary": "Learning from labeled training data to make predictions on new, unseen data.",
+          "detailed": "Supervised learning is the most common type of machine learning. It uses labeled datasets where each training example has a corresponding output label. The algorithm learns a mapping function from inputs to outputs. This type of learning is called 'supervised' because the learning process is guided by known correct answers. Common applications include classification (predicting categories) and regression (predicting continuous values).",
+          "keyPoints": [
+            "Requires labeled training data",
+            "Used for both classification and regression tasks",
+            "Model learns input-output mappings",
+            "Can be evaluated with test data"
+          ],
+          "examples": [
+            "Email spam detection (classification)",
+            "Predicting house prices (regression)",
+            "Medical diagnosis from symptoms",
+            "Customer churn prediction"
+          ],
+          "tags": ["supervised-learning", "classification", "regression", "labeled-data"]
+        },
+        "children": [
+          {
+            "id": "node-2-001",
+            "title": "Classification",
+            "content": {
+              "summary": "Predicting discrete categories or labels for input data.",
+              "detailed": "Classification algorithms predict which category or class an input belongs to. The output is categorical, meaning it belongs to a finite set of classes. Binary classification involves two classes (e.g., spam/not spam), while multi-class classification involves more than two classes (e.g., identifying different types of animals in images).",
+              "keyPoints": [
+                "Output is categorical",
+                "Binary vs multi-class classification",
+                "Common algorithms: Logistic Regression, Decision Trees, SVM",
+                "Used when output is discrete"
+              ],
+              "examples": [
+                "Spam vs not spam (binary)",
+                "Identifying dog breeds (multi-class)",
+                "Sentiment analysis (positive/negative/neutral)",
+                "Disease diagnosis (healthy/diseased)"
+              ],
+              "metadata": {
+                "level": 2,
+                "importance": "high",
+                "tags": ["classification", "supervised-learning"]
+              }
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["classification"],
+              "createdAt": "2024-01-15T10:00:00Z",
+              "importance": "high"
+            }
+          },
+          {
+            "id": "node-2-002",
+            "title": "Regression",
+            "content": {
+              "summary": "Predicting continuous numerical values.",
+              "detailed": "Regression algorithms predict continuous numerical values rather than discrete categories. The output is a real number, making it suitable for predicting quantities like prices, temperatures, or any measurable value. Linear regression is the simplest form, but more complex models can capture non-linear relationships.",
+              "keyPoints": [
+                "Output is continuous",
+                "Predicts numerical values",
+                "Common algorithms: Linear Regression, Polynomial Regression",
+                "Used for forecasting and trend analysis"
+              ],
+              "examples": [
+                "Predicting house prices",
+                "Forecasting stock prices",
+                "Estimating temperature",
+                "Sales prediction"
+              ],
+              "metadata": {
+                "level": 2,
+                "importance": "high",
+                "tags": ["regression", "supervised-learning"]
+              }
+            },
+            "children": [],
+            "metadata": {
+              "level": 2,
+              "tags": ["regression"],
+              "createdAt": "2024-01-15T10:00:00Z",
+              "importance": "high"
+            }
+          }
+        ],
+        "metadata": {
+          "level": 1,
+          "tags": ["supervised-learning"],
+          "createdAt": "2024-01-15T10:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-002",
+        "title": "Unsupervised Learning",
+        "content": {
+          "summary": "Finding hidden patterns in unlabeled data without guidance.",
+          "detailed": "Unsupervised learning algorithms work with unlabeled data to discover hidden patterns, structures, or relationships. Unlike supervised learning, there are no correct answers provided during training. The algorithm must find structure in the data on its own. Common techniques include clustering (grouping similar data points) and dimensionality reduction (simplifying data while preserving important information).",
+          "keyPoints": [
+            "Works with unlabeled data",
+            "Discovers hidden patterns",
+            "Common techniques: Clustering, Dimensionality Reduction",
+            "Used for exploratory data analysis"
+          ],
+          "examples": [
+            "Customer segmentation",
+            "Anomaly detection",
+            "Image compression",
+            "Market basket analysis"
+          ],
+          "tags": ["unsupervised-learning", "clustering", "pattern-discovery"]
+        },
+        "children": [],
+        "metadata": {
+          "level": 1,
+          "tags": ["unsupervised-learning"],
+          "createdAt": "2024-01-15T10:00:00Z",
+          "importance": "high"
+        }
+      },
+      {
+        "id": "node-1-003",
+        "title": "Reinforcement Learning",
+        "content": {
+          "summary": "Learning through trial and error using rewards and penalties.",
+          "detailed": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives rewards for good actions and penalties for bad actions. Over time, the agent learns the optimal strategy (policy) to maximize cumulative rewards. This approach is particularly useful in sequential decision-making problems.",
+          "keyPoints": [
+            "Learns through rewards and penalties",
+            "Agent interacts with environment",
+            "Used for sequential decision-making",
+            "Common in game AI and robotics"
+          ],
+          "examples": [
+            "Game playing AI (Chess, Go)",
+            "Autonomous robots",
+            "Recommendation systems",
+            "Trading algorithms"
+          ],
+          "tags": ["reinforcement-learning", "agent-based", "reward-learning"]
+        },
+        "children": [],
+        "metadata": {
+          "level": 1,
+          "tags": ["reinforcement-learning"],
+          "createdAt": "2024-01-15T10:00:00Z",
+          "importance": "medium"
+        }
+      }
+    ],
+    "metadata": {
+      "level": 0,
+      "createdAt": "2024-01-15T10:00:00Z"
+    }
+  },
+  "metadata": {
+    "createdAt": "2024-01-15T10:00:00Z",
+    "updatedAt": "2024-01-15T10:00:00Z",
+    "sourceFile": "machine-learning.md",
+    "totalNodes": 7,
+    "maxDepth": 2,
+    "tags": ["machine-learning", "ai", "data-science"],
+    "version": "1.0.0"
+  }
+}
