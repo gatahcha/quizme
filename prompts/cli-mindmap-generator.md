@@ -101,15 +101,24 @@ Generate ONLY a mindmap JSON file. This is completely separate from quiz generat
 
 3. **Content Extraction and Node Creation**:
    - **CRITICAL**: Important information should be displayed as nodes in the mindmap, NOT stored only in descriptions
+   - **COMPREHENSIVE DETAIL FOR IMPORTANT TOPICS**: When a topic is important, central, or foundational to the subject matter, create a comprehensive node structure that thoroughly explains it. Break down important concepts into multiple layers of detail:
+     - For important topics, create child nodes for ALL relevant aspects, properties, mechanisms, examples, and applications
+     - Important topics should have 4-6+ levels of depth if needed to fully explain the concept
+     - Important topics should have child nodes for: definitions, principles, mechanisms, conditions, variations, examples, applications, and related concepts
    - If a topic has properties, attributes, key characteristics, or components, create child nodes for each of them
-   - Example: If "Controlled Atmosphere Storage" has properties like "O₂: 2.5%", "CO₂: 4.5%", "Temperature: 3°C", create these as child nodes
-   - If "Apple Processing" has methods like "Juicing", "Fermentation", "Drying", create child nodes for each method
+   - Example: If "Controlled Atmosphere Storage" is an important topic:
+     - Create nodes for: storage parameters (temperature, humidity, O₂, CO₂, N₂)
+     - Create nodes for: duration extension, scientific principles, quality benefits
+     - Create nodes for: variety-specific requirements, facility requirements, applications
+     - EACH of these should have further child nodes if they contain important details
+   - If "Apple Processing" has methods like "Juicing", "Fermentation", "Drying", create child nodes for each method AND their sub-processes
    - **Summary**: Extract text from "**Summary**:" section, clean whitespace (keep brief)
    - **Detailed**: Extract all text from "**Detailed Content**:" section (for aside panel)
    - **Key Points**: If not converted to child nodes, include in keyPoints array
    - **Examples**: If not converted to child nodes, include in examples array
    - **Tags**: Parse comma-separated tags, clean and normalize
    - **Priority**: When in doubt, prefer creating child nodes over storing information only in descriptions
+   - **EVALUATE IMPORTANCE**: Assess which topics are central/critical vs supplementary/peripheral, and structure accordingly
 
 4. **Metadata**:
    - Count total nodes recursively (all nodes in tree)
@@ -243,6 +252,12 @@ Supervised learning uses labeled datasets where each example has an output...
 2. **DISPLAY INFORMATION IN NODES**: Critical information (properties, attributes, components, methods) should appear as child nodes in the mindmap structure, not just in descriptions
 3. **VISIBLE STRUCTURE**: The mindmap should be self-explanatory - users should understand key information from the node structure alone
 4. **Descriptions are supplementary**: The detailed/content fields are for additional context when viewing details, but the main information should be visible in the node hierarchy
+5. **COMPREHENSIVE IMPORTANT TOPICS**: When a topic is central or important to the subject:
+   - Structure it with maximum detail and depth (4-6+ levels if needed)
+   - Break down ALL aspects: definitions, principles, mechanisms, conditions, examples, applications, variations
+   - Create child nodes for every property, component, sub-process, and related concept
+   - The goal is that someone viewing the mindmap structure can learn the important topic thoroughly without reading descriptions
+6. **EVALUATE TOPIC IMPORTANCE**: Distinguish between central/foundational concepts that need comprehensive treatment vs peripheral topics that can be simpler
 
 **IMPORTANT**: This is for MINDMAP generation ONLY. Do NOT generate quiz content.
 

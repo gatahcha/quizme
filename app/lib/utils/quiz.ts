@@ -22,10 +22,12 @@ export function calculateScore(
       isCorrect = userAnswer === tfQuestion.correctAnswer;
     } else if (question.type === 'matching') {
       const matchQuestion = question as MatchingQuestion;
-      const userMatches = userAnswer as Record<string, string>;
-      isCorrect = matchQuestion.rightItems.every(
-        rightItem => userMatches[rightItem.id] === rightItem.correctMatchId
-      );
+      const userMatches = (userAnswer || {}) as Record<string, string>;
+      isCorrect = matchQuestion.rightItems && Array.isArray(matchQuestion.rightItems) && matchQuestion.rightItems.length > 0
+        ? matchQuestion.rightItems.every(
+            rightItem => userMatches[rightItem.id] === rightItem.correctMatchId
+          )
+        : false;
     }
 
     if (isCorrect) {

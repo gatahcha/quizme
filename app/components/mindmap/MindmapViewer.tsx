@@ -129,17 +129,95 @@ function MindmapViewerInner({ rootNode, onNodeClick }: MindmapViewerProps) {
     return null;
   }, []);
 
+  // Find path from root to a node (returns array of node IDs)
+  const findPathToNode = useCallback((node: MindmapNode, targetId: string, path: string[] = []): string[] | null => {
+    const currentPath = [...path, node.id];
+    if (node.id === targetId) {
+      return currentPath;
+    }
+    for (const child of node.children) {
+      const result = findPathToNode(child, targetId, currentPath);
+      if (result) return result;
+    }
+    return null;
+  }, []);
+
+  // Find parent node and siblings of a given node
+  const findParentAndSiblings = useCallback((node: MindmapNode, targetId: string, parent: MindmapNode | null = null): { parent: MindmapNode | null; siblings: MindmapNode[] } | null => {
+    if (node.id === targetId) {
+      // If this is the root node, it has no parent or siblings at the same level
+      if (parent === null) {
+        return { parent: null, siblings: [] };
+      }
+      return { parent, siblings: parent.children };
+    }
+    for (const child of node.children) {
+      const result = findParentAndSiblings(child, targetId, node);
+      if (result) return result;
+    }
+    return null;
+  }, []);
+
   const onNodeClickHandler = useCallback((_event: React.MouseEvent, node: Node) => {
     const nodeData = node.data as MindmapNode & { level: number; isExpanded: boolean };
     const hasChildren = nodeData.children && nodeData.children.length > 0;
+    const clickedNodeId = node.id;
     
-    // If node has children, toggle expand
-    if (hasChildren) {
-      toggleExpand(node.id);
-    }
+    // Find the actual node in the tree
+    const actualNode = findNodeInTree(rootNode, clickedNodeId);
+    if (!actualNode) return;
+
+    // Find path from root to clicked node (keep these expanded)
+    const pathToNode = findPathToNode(rootNode, clickedNodeId);
+    
+    // Find parent and siblings
+    const parentSiblings = findParentAndSiblings(rootNode, clickedNodeId);
+    
+    // Update expanded set:
+    // 1. Keep path from root to clicked node expanded
+    // 2. Collapse all siblings at the same level
+    setExpanded(prev => {
+      const next = new Set(prev);
+      
+      // If clicked node has children, toggle it
+      if (hasChildren) {
+        if (next.has(clickedNodeId)) {
+          next.delete(clickedNodeId);
+        } else {
+          next.add(clickedNodeId);
+        }
+      }
+      
+      // Collapse siblings (nodes at same level with same parent)
+      if (parentSiblings) {
+        const { siblings } = parentSiblings;
+        siblings.forEach(sibling => {
+          if (sibling.id !== clickedNodeId) {
+            next.delete(sibling.id);
+            // Also collapse all descendants of collapsed siblings
+            const collapseDescendants = (n: MindmapNode) => {
+              next.delete(n.id);
+              n.children.forEach(child => collapseDescendants(child));
+            };
+            sibling.children.forEach(child => collapseDescendants(child));
+          }
+        });
+      }
+      
+      // Ensure path from root to clicked node remains expanded
+      if (pathToNode) {
+        pathToNode.forEach(pathNodeId => {
+          if (pathNodeId !== clickedNodeId) {
+            next.add(pathNodeId);
+          }
+        });
+      }
+      
+      return next;
+    });
     
     // Set selected node for highlighting
-    setSelectedNodeId(node.id);
+    setSelectedNodeId(clickedNodeId);
     
     // Center the view on the clicked node
     // Use setTimeout to ensure nodes are rendered before centering
@@ -148,7 +226,7 @@ function MindmapViewerInner({ rootNode, onNodeClick }: MindmapViewerProps) {
     }
     
     centeringTimeoutRef.current = setTimeout(() => {
-      const reactFlowNode = getNode(node.id);
+      const reactFlowNode = getNode(clickedNodeId);
       if (reactFlowNode) {
         const x = reactFlowNode.position.x + (reactFlowNode.width || 250) / 2;
         const y = reactFlowNode.position.y + (reactFlowNode.height || 100) / 2;
@@ -158,15 +236,12 @@ function MindmapViewerInner({ rootNode, onNodeClick }: MindmapViewerProps) {
     }, 150);
     
     // Show details in aside when clicked
-    const actualNode = findNodeInTree(rootNode, node.id);
-    if (actualNode) {
-      setSelectedNode(actualNode);
-      setShowAside(true);
-      if (onNodeClick) {
-        onNodeClick(actualNode);
-      }
+    setSelectedNode(actualNode);
+    setShowAside(true);
+    if (onNodeClick) {
+      onNodeClick(actualNode);
     }
-  }, [toggleExpand, rootNode, onNodeClick, findNodeInTree, getNode, setCenter, getViewport]);
+  }, [rootNode, onNodeClick, findNodeInTree, findPathToNode, findParentAndSiblings, getNode, setCenter, getViewport]);
   
   // Cleanup timeout on unmount
   useEffect(() => {

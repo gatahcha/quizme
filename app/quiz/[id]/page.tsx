@@ -17,9 +17,14 @@ export default function QuizPage() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string | boolean | Record<string, string>>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    if (id) {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (id && isMounted) {
       fetch(`/api/quizzes/${id}`)
         .then(res => res.json())
         .then(data => {
@@ -38,9 +43,9 @@ export default function QuizPage() {
           console.error('Error fetching quiz:', error);
         });
     }
-  }, [id]);
+  }, [id, isMounted]);
 
-  if (!quiz) {
+  if (!quiz || !isMounted) {
     return (
       <Layout>
         <div className="text-center py-12">
