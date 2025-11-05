@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Layout from '../../../components/shared/Layout';
 import Link from 'next/link';
-import { Quiz, QuizResult, QuizAnswer } from '../../../lib/types/quiz';
+import { Quiz, QuizResult, QuizAnswer, MultipleChoiceQuestion } from '../../../lib/types/quiz';
 import { getQuestionAnswer } from '../../../lib/utils/quiz';
 
 export default function QuizResultsPage() {
@@ -113,17 +113,75 @@ export default function QuizResultsPage() {
                     </div>
 
                     <div className="mt-3 space-y-2 text-sm">
-                      <div>
-                        <span className="font-medium text-gray-700">Your answer: </span>
-                        <span className={isCorrect ? 'text-green-700' : 'text-red-700'}>
-                          {JSON.stringify(answer?.answer)}
-                        </span>
-                      </div>
-                      {!isCorrect && (
+                      {question.type === 'multiple-choice' ? (
                         <div>
-                          <span className="font-medium text-gray-700">Correct answer: </span>
-                          <span className="text-green-700">{JSON.stringify(correctAnswer)}</span>
+                          <div className="font-medium text-gray-700 mb-2">Options:</div>
+                          <div className="space-y-2">
+                            {(question as MultipleChoiceQuestion).options.map((option) => {
+                              const isUserAnswer = answer?.answer === option.id;
+                              const isCorrectOption = option.isCorrect;
+                              
+                              let bgColor = 'bg-gray-50';
+                              let borderColor = 'border-gray-200';
+                              let textColor = 'text-gray-700';
+                              let label = '';
+                              
+                              if (isCorrectOption && isUserAnswer) {
+                                bgColor = 'bg-green-100';
+                                borderColor = 'border-green-500';
+                                textColor = 'text-green-800';
+                                label = '✓ Correct & Your Answer';
+                              } else if (isCorrectOption) {
+                                bgColor = 'bg-green-50';
+                                borderColor = 'border-green-300';
+                                textColor = 'text-green-700';
+                                label = '✓ Correct Answer';
+                              } else if (isUserAnswer) {
+                                bgColor = 'bg-red-100';
+                                borderColor = 'border-red-500';
+                                textColor = 'text-red-800';
+                                label = '✗ Your Answer (Incorrect)';
+                              }
+                              
+                              return (
+                                <div
+                                  key={option.id}
+                                  className={`p-3 rounded border-2 ${bgColor} ${borderColor} ${textColor}`}
+                                >
+                                  <div className="flex items-start justify-between">
+                                    <span className="flex-1">{option.text}</span>
+                                    {label && (
+                                      <span className={`ml-3 px-2 py-1 rounded text-xs font-medium ${
+                                        isCorrectOption && isUserAnswer
+                                          ? 'bg-green-200 text-green-900'
+                                          : isCorrectOption
+                                          ? 'bg-green-200 text-green-800'
+                                          : 'bg-red-200 text-red-900'
+                                      }`}>
+                                        {label}
+                                      </span>
+                                    )}
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </div>
                         </div>
+                      ) : (
+                        <>
+                          <div>
+                            <span className="font-medium text-gray-700">Your answer: </span>
+                            <span className={isCorrect ? 'text-green-700' : 'text-red-700'}>
+                              {JSON.stringify(answer?.answer)}
+                            </span>
+                          </div>
+                          {!isCorrect && (
+                            <div>
+                              <span className="font-medium text-gray-700">Correct answer: </span>
+                              <span className="text-green-700">{JSON.stringify(correctAnswer)}</span>
+                            </div>
+                          )}
+                        </>
                       )}
                       {question.explanation && (
                         <div className="mt-2 p-3 bg-blue-50 rounded">
